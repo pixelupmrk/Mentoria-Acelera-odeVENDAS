@@ -1,17 +1,59 @@
-<!doctype html><html lang="pt-BR"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>PixelUp Mentoria</title><meta name="theme-color" content="#0ea5ff">
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="icon" sizes="192x192" href="icons/icon-192.png">
-<link rel="icon" sizes="256x256" href="icons/icon-256.png">
-<link rel="icon" sizes="512x512" href="icons/icon-512.png">
-<link rel="stylesheet" href="styles.css"></head>
-<body><header class="topbar"><div class="brand">Pixel<span>Up</span> Mentoria</div>
-<div class="tools"><input id="search" class="search" type="search" placeholder="Buscar aulas…">
-<button id="installBtn" class="btn ghost">Instalar</button></div></header>
-<main id="app" class="container"></main>
-<footer class="foot">© PixelUp Marketing Digital & Mídia</footer>
-<script src="app.js"></script>
-<script>if('serviceWorker'in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js'));}</script>
-</body></html>
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>PixelUp Mentoria</title>
+    <meta name="theme-color" content="#0ea5ff" />
+
+    <!-- PWA / Ícones -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <link rel="icon" sizes="192x192" href="icons/icon-192.png" />
+    <link rel="icon" sizes="256x256" href="icons/icon-256.png" />
+    <link rel="icon" sizes="512x512" href="icons/icon-512.png" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">Pixel<span>Up</span> Mentoria</div>
+      <div class="tools">
+        <input
+          id="search"
+          class="search"
+          type="search"
+          placeholder="Buscar aulas…"
+        />
+        <button id="installBtn" class="btn ghost">Instalar</button>
+      </div>
+    </header>
+
+    <main id="app" class="container"></main>
+
+    <footer class="foot">© PixelUp Marketing Digital & Mídia</footer>
+
+    <noscript>
+      <div style="padding:16px;color:#e6f1ff">
+        Este app precisa de JavaScript habilitado.
+      </div>
+    </noscript>
+
+    <!-- App -->
+    <script src="app.js"></script>
+
+    <!-- Service Worker -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  </body>
+</html>
