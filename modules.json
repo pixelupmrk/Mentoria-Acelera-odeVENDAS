@@ -1,0 +1,481 @@
+{
+  "modules": [
+    {
+      "title": "Módulo 1 • Fundamentos do Negócio e Posicionamento",
+      "slug": "fundamentos-negocio-posicionamento",
+      "summary": "Persona ideal, proposta de valor e escolha do plano de serviço.",
+      "lessons": [
+        {
+          "title": "Definição da Persona Ideal (com exercícios)",
+          "slug": "persona-ideal",
+          "video": null,
+          "content": "Mapeie dores, objetivos e canais onde a persona está. Preencha o questionário e consolide um perfil objetivo.",
+          "attachments": [
+            {
+              "title": "Capa M1",
+              "url": "assets/ChatGPT_Image_12_de_mai._de_2025,_18_13_02.png"
+            },
+            {
+              "title": "Módulo 1 - Guia (DOCX)",
+              "url": "assets/Mentoria_MD01.docx"
+            },
+            {
+              "title": "Questionário de Persona (DOCX)",
+              "url": "assets/mentoria__MD1.1.docx"
+            },
+            {
+              "title": "Avaliação de Persona (DOCX)",
+              "url": "assets/mentoria__MD1.2.docx"
+            }
+          ],
+          "quiz": {
+            "question": "Para que serve a persona?",
+            "options": [
+              "Definir o público ideal",
+              "Definir paleta de cores",
+              "Gerar músicas",
+              "Calcular CPC"
+            ],
+            "correctIndex": 0,
+            "explanation": "Ela guia conteúdo, oferta e comunicação."
+          }
+        },
+        {
+          "title": "Proposta de Valor e Diferenciação",
+          "slug": "proposta-valor",
+          "video": null,
+          "content": "Complete a frase: “Ajudamos [persona] a [resultado] por meio de [diferencial]”.",
+          "attachments": [
+            {
+              "title": "M1 - Guia",
+              "url": "assets/Mentoria_MD01.docx"
+            }
+          ]
+        },
+        {
+          "title": "Escolha do Plano de Serviço Ideal",
+          "slug": "plano-servico-ideal",
+          "video": null,
+          "content": "Escolha Básico/Intermediário/Avançado conforme maturidade e metas.",
+          "attachments": [
+            {
+              "title": "M1 - Guia",
+              "url": "assets/Mentoria_MD01.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Módulo 2 • O Algoritmo do Meta (Facebook & Instagram)",
+      "slug": "algoritmo-meta",
+      "summary": "Como a Meta entrega conteúdos, fatores de alcance e engajamento inicial.",
+      "lessons": [
+        {
+          "title": "Como o algoritmo funciona e entrega conteúdos",
+          "slug": "como-funciona",
+          "video": null,
+          "content": "O feed testa seu post para pequenos grupos e amplia quando há bons sinais. Trabalhe relevância e retenção.",
+          "attachments": [
+            {
+              "title": "Capa M2",
+              "url": "assets/ChatGPT_Image_12_de_mai._de_2025,_18_42_49.png"
+            },
+            {
+              "title": "M2 - Guia (DOCX)",
+              "url": "assets/Doc_MD02.docx"
+            }
+          ]
+        },
+        {
+          "title": "O que influencia o alcance orgânico",
+          "slug": "alcance-organico",
+          "video": null,
+          "content": "Salvamentos, comentários, tempo de visualização e frequência são chaves.",
+          "attachments": [
+            {
+              "title": "M2 - Guia (DOCX)",
+              "url": "assets/Doc_MD02.docx"
+            }
+          ]
+        },
+        {
+          "title": "Engajamento inicial & comportamento do usuário",
+          "slug": "engajamento-comportamento",
+          "video": null,
+          "content": "Primeiros minutos importam. Relacionamento prévio do usuário com seu perfil pesa na entrega.",
+          "attachments": [
+            {
+              "title": "M2 - Guia (DOCX)",
+              "url": "assets/Doc_MD02.docx"
+            }
+          ]
+        },
+        {
+          "title": "Dica prática: comece com um Gancho Forte",
+          "slug": "gancho-forte",
+          "video": null,
+          "content": "Use perguntas e promessas específicas que param o scroll.",
+          "attachments": [
+            {
+              "title": "Gancho Forte (DOCX)",
+              "url": "assets/Doc_MD2.1.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Módulo 3 • Cronograma de Postagens Estratégico",
+      "slug": "cronograma-postagens",
+      "summary": "Melhores horários, frequência por nicho e modelos de calendário.",
+      "lessons": [
+        {
+          "title": "Melhores horários e dias para postar",
+          "slug": "horarios-dias",
+          "video": null,
+          "content": "Poste quando seu público está mais ativo (ex.: 11–13h ou 18–20h; ajuste pelos seus Insights).",
+          "attachments": [
+            {
+              "title": "Capa M3",
+              "url": "assets/ChatGPT_Image_12_de_mai._de_2025,_19_01_24.png"
+            },
+            {
+              "title": "M3 - Guia (DOCX)",
+              "url": "assets/Doc__MD3.0.docx"
+            }
+          ],
+          "quiz": {
+            "question": "Qual fonte usar para definir horários ideais?",
+            "options": [
+              "Intuição",
+              "Insights do Instagram",
+              "Horário do concorrente",
+              "Aleatório"
+            ],
+            "correctIndex": 1,
+            "explanation": "Verifique quando seus seguidores estão online nos Insights."
+          }
+        },
+        {
+          "title": "Frequência ideal por nicho",
+          "slug": "frequencia-nicho",
+          "video": null,
+          "content": "Defina constância por segmento (ex.: estética 4–5 posts/sem; B2B 3 posts/sem; varejo quase diário).",
+          "attachments": [
+            {
+              "title": "M3 - Guia (DOCX)",
+              "url": "assets/Doc__MD3.0.docx"
+            }
+          ]
+        },
+        {
+          "title": "Templates e modelos de calendário",
+          "slug": "templates-calendario",
+          "video": null,
+          "content": "Use um calendário semanal/mensal e categorize: educar, prova social, CTA, oferta.",
+          "attachments": [
+            {
+              "title": "M3 - Cronograma Semanal (DOCX)",
+              "url": "assets/Doc__MD3.1.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Módulo 4 • Conteúdo que Conecta",
+      "slug": "conteudo-que-conecta",
+      "summary": "Vídeos que engajam, edição prática e design com identidade.",
+      "lessons": [
+        {
+          "title": "Vídeos que engajam: gancho, valor e CTA",
+          "slug": "videos-que-engajam",
+          "video": null,
+          "content": "Abra com gancho forte, entregue valor rápido e finalize com CTA claro.",
+          "attachments": [
+            {
+              "title": "Capa M4",
+              "url": "assets/ChatGPT_Image_12_de_mai._de_2025,_19_15_47.png"
+            },
+            {
+              "title": "M4 - Guia (DOCX)",
+              "url": "assets/Doc_MD4.0.docx"
+            }
+          ]
+        },
+        {
+          "title": "Edição prática (CapCut/InShot)",
+          "slug": "edicao-pratica",
+          "video": null,
+          "content": "Cortes rápidos, legendas automáticas, música suave e logo padronizado.",
+          "attachments": [
+            {
+              "title": "M4 - Guia (DOCX)",
+              "url": "assets/Doc_MD4.0.docx"
+            }
+          ]
+        },
+        {
+          "title": "Design com Canva: layout e identidade",
+          "slug": "design-canva",
+          "video": null,
+          "content": "Use fontes legíveis, cores da marca e respiro visual.",
+          "attachments": [
+            {
+              "title": "M4 - Dicas/Desafio (DOCX)",
+              "url": "assets/Doc_MD4.1.docx"
+            }
+          ]
+        },
+        {
+          "title": "Desafio: 1 dica em 1 minuto",
+          "slug": "desafio-1-minuto",
+          "video": null,
+          "content": "Roteirize gancho→valor→CTA e teste horários/legendas.",
+          "attachments": [
+            {
+              "title": "Desafio Vídeo (DOCX)",
+              "url": "assets/Doc_MD4.1.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Módulo 5 • Copywriting com ChatGPT",
+      "slug": "copywriting-chatgpt",
+      "summary": "Textos persuasivos com IA, fórmulas e prompts prontos.",
+      "lessons": [
+        {
+          "title": "Como criar textos persuasivos com IA",
+          "slug": "textos-ia",
+          "video": null,
+          "content": "Direcione a IA com contexto, objetivo e restrições claras.",
+          "attachments": [
+            {
+              "title": "Capa M5",
+              "url": "assets/ChatGPT_Image_12_de_mai._de_2025,_19_39_22.png"
+            },
+            {
+              "title": "M5 - Guia (DOCX)",
+              "url": "assets/Doc__MD5.0.docx"
+            }
+          ]
+        },
+        {
+          "title": "Fórmulas: AIDA, PAS, 4Ps",
+          "slug": "formulas-copy",
+          "video": null,
+          "content": "Use estruturas para organizar atenção→ação e gerar desejo.",
+          "attachments": [
+            {
+              "title": "M5 - Fórmulas (DOCX)",
+              "url": "assets/Doc__MD5.0.docx"
+            }
+          ],
+          "quiz": {
+            "question": "Qual fórmula significa Atenção, Interesse, Desejo, Ação?",
+            "options": [
+              "PAS",
+              "AIDA",
+              "4Ps",
+              "ABCDE"
+            ],
+            "correctIndex": 1,
+            "explanation": "AIDA = Attention, Interest, Desire, Action."
+          }
+        },
+        {
+          "title": "Prompts inteligentes + exemplos",
+          "slug": "prompts-exemplos",
+          "video": null,
+          "content": "Especifique ação, assunto, objetivo e tom; salve modelos úteis.",
+          "attachments": [
+            {
+              "title": "M5 - Prompts (DOCX)",
+              "url": "assets/Doc__MD5.1.docx"
+            }
+          ]
+        },
+        {
+          "title": "Títulos e legendas que geram cliques",
+          "slug": "titulos-legendas",
+          "video": null,
+          "content": "Use perguntas, listas e números para provocar curiosidade.",
+          "attachments": [
+            {
+              "title": "M5 - Títulos/Legendas (DOCX)",
+              "url": "assets/Doc__MD5.2.docx"
+            }
+          ]
+        },
+        {
+          "title": "Como se relacionar com o ChatGPT",
+          "slug": "relacao-chatgpt",
+          "video": null,
+          "content": "Dê briefing, refine respostas e peça ajustes iterativos.",
+          "attachments": [
+            {
+              "title": "M5 - Relacionamento (DOCX)",
+              "url": "assets/Doc__MD5.1.docx"
+            }
+          ]
+        },
+        {
+          "title": "Crie seus prompts fixos (modelo PixelUp)",
+          "slug": "prompts-fixos",
+          "video": null,
+          "content": "Adapte o Prompt Base PixelUp com tema, objetivo, persona e tom.",
+          "attachments": [
+            {
+              "title": "M5 - Prompt Base (DOCX)",
+              "url": "assets/Doc__MD5.2.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Módulo 6 • Implementação de CRM",
+      "slug": "implementacao-crm",
+      "summary": "O que é CRM, ferramentas gratuitas/pagas e funil básico de vendas.",
+      "lessons": [
+        {
+          "title": "O que é CRM e por que sua empresa precisa",
+          "slug": "o-que-e-crm",
+          "video": null,
+          "content": "CRM organiza contatos, histórico e oportunidades em um funil para não perder vendas.",
+          "attachments": [
+            {
+              "title": "Capa M6",
+              "url": "assets/ChatGPT_Image_12_de_mai._de_2025,_19_46_26.png"
+            },
+            {
+              "title": "M6 - Conceitos (DOCX)",
+              "url": "assets/DOC_MD_6.0.docx"
+            }
+          ]
+        },
+        {
+          "title": "Ferramentas gratuitas e pagas (Trello, HubSpot, RD etc.)",
+          "slug": "ferramentas-crm",
+          "video": null,
+          "content": "Comece simples (Trello/HubSpot). Quando evoluir, avalie RD/Pipedrive conforme o time.",
+          "attachments": [
+            {
+              "title": "M6 - Ferramentas (DOCX)",
+              "url": "assets/DOC_MD_6.1.docx"
+            }
+          ]
+        },
+        {
+          "title": "Funil básico e organização de leads",
+          "slug": "funil-basico",
+          "video": null,
+          "content": "Monte colunas: Novo Lead → Contato → Proposta → Negociação → Fechado. Agende follow-ups.",
+          "attachments": [
+            {
+              "title": "M6 - Funil (DOCX)",
+              "url": "assets/DOC_MD_6.2.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Módulo 7 • Processo Comercial e Técnicas de Venda",
+      "slug": "processo-comercial-vendas",
+      "summary": "Pitch que gera interesse, rapport e follow-up consultivo.",
+      "lessons": [
+        {
+          "title": "Pitch comercial que gera interesse",
+          "slug": "pitch-interesse",
+          "video": null,
+          "content": "Quem você ajuda, qual problema resolve e seu diferencial — em 15–30s.",
+          "attachments": [
+            {
+              "title": "Capa M7",
+              "url": "assets/ChatGPT_Image_12_de_mai._de_2025,_23_00_07.png"
+            },
+            {
+              "title": "M7 - Guia (DOCX)",
+              "url": "assets/DOC_MD07.docx"
+            }
+          ]
+        },
+        {
+          "title": "Rapport, gatilhos e espelhamento",
+          "slug": "rapport-gatilhos",
+          "video": null,
+          "content": "Conexão genuína + prova social/autoridade; espelhe linguagem e ritmo.",
+          "attachments": [
+            {
+              "title": "M7 - Guia (DOCX)",
+              "url": "assets/DOC_MD07.docx"
+            }
+          ]
+        },
+        {
+          "title": "Follow-up eficiente e sem pressão",
+          "slug": "follow-up",
+          "video": null,
+          "content": "Marque retornos no CRM e traga sempre novo valor em cada contato.",
+          "attachments": [
+            {
+              "title": "M7 - Guia (DOCX)",
+              "url": "assets/DOC_MD07.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Módulo 8 • Conexão com a Audiência e Humanização",
+      "slug": "conexao-audiencia-humanizacao",
+      "summary": "Autenticidade, bastidores e construção de comunidade leal.",
+      "lessons": [
+        {
+          "title": "Conexão real com o público",
+          "slug": "conexao-real",
+          "video": null,
+          "content": "Mostre valores e rotina com autenticidade; fale como para um amigo.",
+          "attachments": [
+            {
+              "title": "Capa M8",
+              "url": "assets/ChatGPT_Image_12_de_mai._de_2025,_23_36_13.png"
+            },
+            {
+              "title": "M8 - Guia (DOCX)",
+              "url": "assets/Doc_MD08.docx"
+            }
+          ]
+        },
+        {
+          "title": "Bastidores, vulnerabilidade e stories",
+          "slug": "bastidores-stories",
+          "video": null,
+          "content": "Stories para mostrar processo e aprendizados; isso aumenta identificação.",
+          "attachments": [
+            {
+              "title": "M8 - Guia (DOCX)",
+              "url": "assets/Doc_MD08.docx"
+            }
+          ]
+        },
+        {
+          "title": "Comunidade engajada e leal",
+          "slug": "comunidade-engajada",
+          "video": null,
+          "content": "Responda DMs/comentários, faça perguntas/enquetes e cite seguidores pelo nome.",
+          "attachments": [
+            {
+              "title": "M8 - Guia (DOCX)",
+              "url": "assets/Doc_MD08.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
