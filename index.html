@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>PixelUp Mentoria</title>
 <meta name="theme-color" content="#0ea5ff" />
+<!-- favicon inline para evitar 404 /favicon.ico -->
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%230b0f1a"/><path d="M18 47V17h17c8 0 13 5 13 11s-5 11-13 11h-9v8h-8zm8-16h8c3 0 5-2 5-5s-2-5-5-5h-8v10z" fill="%230ea5ff"/></svg>'/>
 <style>
 :root{--bg:#0b0f1a;--primary:#0ea5ff;--text:#e6f1ff;--muted:#8aa3c2;--glow:0 12px 40px rgba(0,0,0,.35), inset 0 0 40px rgba(14,165,255,.08)}
 *{box-sizing:border-box}html,body{height:100%}
@@ -60,7 +62,7 @@ background:rgba(255,255,255,.06);color:var(--text);outline:none}
 <footer class="foot">© PixelUp Marketing Digital & Mídia</footer>
 
 <script>
-/* 0) Desregistrar qualquer service worker antigo (evita tela vazia por cache) */
+/* Desregistrar service workers antigos para evitar cache preso */
 (function(){
   try {
     if ('serviceWorker' in navigator) {
@@ -72,11 +74,21 @@ background:rgba(255,255,255,.06);color:var(--text);outline:none}
   } catch(e){}
 })();
 
-/* 1) Dados dos módulos/aulas (gerados dos seus DOCX).   */
-/*    Coloque imagens opcionais em assets/cover-m1.png … cover-m8.png */
+/* ====== DADOS (gerados dos seus DOCX) ====== */
 const DATA = {"modules": [{"slug":"m1","title":"Módulo 1 • Fundamentos do Negócio e Posicionamento","cover":"assets/cover-m1.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 1).","lessons":[{"slug":"m1-mentoria-md01","title":"Proposta de Negócio | Posicionamento | Persona | Propósito | Jornada do Cliente","cover":"assets/cover-m1.png","presentation":["","Proposta de negócio","Posicionamento de marca","Persona ideal","Proposta de valor","Jornada do cliente","Plano de serviço"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},{"slug":"m1-mentoria--md1_1","title":"Proposta de Negócio","cover":"assets/cover-m1.png","presentation":["O que você entrega","PARA QUEM ELES ENTREGAM?","QUAL TIPO de serviço ofertam no nicho? Tipos de serviços do nicho.","Quais as dores do cliente desse nicho [Ou o que ele quer e qual problema você resolve dele?] ou seja… Qual a transformação você entrega ? OU VALOR","Sobre as dores","O QUE O CLIENTE QUER? Transformação","Identidade Visual do Negócio - Sua logo"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},{"slug":"m1-mentoria--md1_2","title":"Posicionamento e Persona","cover":"assets/cover-m1.png","presentation":["POSICIONAMENTO DE MERCADO","Qual sua promessa? (VALOR)","Proposta de Valor","Fórmula Proposta de valor:","Persona ideal"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}]},{"slug":"m2","title":"Módulo 2 • O Algoritmo do Meta (Facebook & Instagram)","cover":"assets/cover-m2.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 2).","lessons":[{"slug":"m2-doc-md02","title":"A Algoritmo do Instagram 2025","cover":"assets/cover-m2.png","presentation":["","Como funciona o algoritmo com detalhes e como você entrega seus conteúdos 👇🏽"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},{"slug":"m2-doc-md2_1","title":"O Algoritmo na Prática","cover":"assets/cover-m2.png","presentation":["APLICATIVO FEED PREVIEWS- PRA TESTAR O DESIGN",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}]},{"slug":"m3","title":"Módulo 3 • Cronograma de Postagens Estratégico","cover":"assets/cover-m3.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 3).","lessons":[{"slug":"m3-doc--md3_0","title":"Cronograma de Postagens","cover":"assets/cover-m3.png","presentation":[""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},{"slug":"m3-doc--md3_1","title":"Frequência e Modelos","cover":"assets/cover-m3.png","presentation":["","o que é FONE:"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}]},{"slug":"m4","title":"Módulo 4 • Conteúdo que Conecta","cover":"assets/cover-m4.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 4).","lessons":[{"slug":"m4-doc-md4_0","title":"Como Gravar Vídeos que Engajam","cover":"assets/cover-m4.png","presentation":["","OLD","Importante saber: O Instagram está sempre em mudança e para ficar no topo e ter bons resultados, você precisa estar atualizado nas tendências e regras de algoritmo. (mas calma, você não precisa ficar viciado em aprender diário, basta acopanhar as tubinas do nível de produto) QUAL MELHOR PLANO PARA VOCÊ?"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},{"slug":"m4-doc-md4_1","title":"Edição Prática e Design","cover":"assets/cover-m4.png","presentation":["[4","[+ COMPLEMENTO DE ALUNA[",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}]},{"slug":"m5","title":"Módulo 5 • Copywriting com ChatGPT","cover":"assets/cover-m5.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 5).","lessons":[{"slug":"m5-doc--md5_0","title":"Copywriting com IA","cover":"assets/cover-m5.png","presentation":["","Segue modelo de abordagem para funil e processo comercial S[data_n£","",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},{"slug":"m5-doc--md5_1","title":"Fórmulas que Funcionam","cover":"assets/cover-m5.png","presentation":["","",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},{"slug":"m5-doc--md5_2","title":"Prompts e Títulos","cover":"assets/cover-m5.png","presentation":["","Vamos PDF:",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}]},{"slug":"m6","title":"Módulo 6 • Implementação de CRM","cover":"assets/cover-m6.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 6).","lessons":[{"slug":"m6-doc-md-6_0","title":"O que é CRM e Por Quê","cover":"assets/cover-m6.png","presentation":["IMPLEMENTANDO CRM – TRELLO"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},{"slug":"m6-doc-md-6_1","title":"Ferramentas Gratuitas e Pagas","cover":"assets/cover-m6.png","presentation":["FERRAMENTAS","sdfsdf",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},{"slug":"m6-doc-md-6_2","title":"Funil Básico & Organização","cover":"assets/cover-m6.png","presentation":["Funil básico e organização de leads"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}]},{"slug":"m7","title":"Módulo 7 • Processo Comercial e Técnicas de Venda","cover":"assets/cover-m7.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 7).","lessons":[{"slug":"m7-doc-md07","title":"Processo Comercial & Técnicas","cover":"assets/cover-m7.png","presentation":[""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}]},{"slug":"m8","title":"Módulo 8 • Conexão com a Audiência e Humanização","cover":"assets/cover-m8.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 8).","lessons":[{"slug":"m8-doc-md08","title":"Humanização & Comunidade","cover":"assets/cover-m8.png","presentation":["","Aluno: VAMOS TESTAR",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}]}]};
 
-/* 2) Infra básica (sem dependências externas) */
+/* ====== CONFIG DE CAPAS ====== */
+/* Troque para 'ativos' se suas imagens estão em /ativos  */
+const COVER_BASE = 'ativos';           // coloque a pasta correta aqui
+const SHOW_COVERS = false;             // mude para true quando subir as imagens
+
+// Reescreve o caminho das capas para a pasta que você usa
+DATA.modules.forEach(m=>{
+  if(m.cover) m.cover = m.cover.replace('assets', COVER_BASE);
+  (m.lessons||[]).forEach(l=>{ if(l.cover) l.cover = l.cover.replace('assets', COVER_BASE); });
+});
+
+/* ====== APP ====== */
 function $(s,el){return (el||document).querySelector(s)}
 const app=$("#app");
 const STORE={A:'pxup-answers',P:'pxup-progress',
@@ -91,7 +103,6 @@ function saveForm(ms,ls){const a=STORE.getA();a[ms+'/'+ls]={};[...app.querySelec
 function loadForm(ms,ls){const a=(STORE.getA()[ms+'/'+ls])||{};[...app.querySelectorAll('[data-field]')].forEach(i=>{if(a[i.dataset.field]!=null)i.value=a[i.dataset.field];})}
 function markDone(ms,ls){const p=STORE.getP();p.done||(p.done={});p.done[ms+'/'+ls]=true;STORE.setP(p)}
 
-/* 3) Renderização */
 function renderHome(){
   const s=allStats();
   app.innerHTML=
@@ -106,9 +117,10 @@ function renderHome(){
   '<section class="grid" style="margin-top:16px">'+
     DATA.modules.map(m=>{
       const st=modStats(m);
+      const coverHTML = (SHOW_COVERS && m.cover) ? `<img src="${m.cover}" onerror="this.remove()">` : '';
       return (
       '<article class="module">'+
-        '<div class="cover">'+(m.cover?`<img src="${m.cover}" onerror="this.remove()">`:``)+'</div>'+
+        `<div class="cover">${coverHTML}</div>`+
         `<h3>${m.title}</h3>`+
         `<p class="note">${m.summary||''}</p>`+
         `<div class="progress"><i style="width:${st.pct}%"></i></div>`+
@@ -118,13 +130,15 @@ function renderHome(){
     }).join('')+
   '</section>';
 }
+
 function renderModule(slug){
   const m=DATA.modules.find(x=>x.slug===slug); if(!m){app.innerHTML='<section class="card"><p>Módulo não encontrado.</p></section>';return}
   const st=modStats(m);
+  const coverHTML = (SHOW_COVERS && m.cover) ? `<img src="${m.cover}" onerror="this.remove()">` : '';
   app.innerHTML =
   `<section class="card">
     <a class="btn ghost" href="#/">← Início</a>
-    <div class="cover" style="margin-top:10px">${m.cover?`<img src="${m.cover}" onerror="this.remove()">`:''}</div>
+    <div class="cover" style="margin-top:10px">${coverHTML}</div>
     <h2 style="margin:10px 0">${m.title}</h2>
     <p class="note">${m.summary||''}</p>
     <div class="progress"><i style="width:${st.pct}%"></i></div><small>${st.done}/${st.total} aulas</small>
@@ -139,15 +153,17 @@ function renderModule(slug){
     }).join('')}
   </section>`;
 }
+
 function renderLesson(ms,ls){
   const m=DATA.modules.find(x=>x.slug===ms); const l=m&&m.lessons.find(x=>x.slug===ls);
   if(!m||!l){app.innerHTML='<section class="card"><p>Aula não encontrada.</p></section>';return}
+  const coverHTML = (SHOW_COVERS && l.cover) ? `<img src="${l.cover}" onerror="this.remove()">` : '';
   app.innerHTML =
   `<section class="card">
     <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
       <a class="btn ghost" href="#/module/${m.slug}">← ${m.title}</a><span class="badge">Aula</span>
     </div>
-    <div class="cover" style="margin-top:10px">${l.cover?`<img src="${l.cover}" onerror="this.remove()">`:''}</div>
+    <div class="cover" style="margin-top:10px">${coverHTML}</div>
     <h2 style="margin:10px 0">${l.title}</h2>
     <h3>Apresentação</h3>
     <ul class="note" style="line-height:1.6;margin-top:6px">${(l.presentation||[]).map(p=>`<li>${p}</li>`).join('')}</ul>
@@ -181,7 +197,7 @@ function renderLesson(ms,ls){
   function flash(msg){const s=$("#status"); s.textContent=msg; setTimeout(()=>s.textContent="",2000)}
 }
 
-/* 4) Router + Busca */
+/* Router + Busca */
 function router(){
   const p=(location.hash||'').slice(1).split('/').filter(Boolean);
   if(!p.length) return renderHome();
