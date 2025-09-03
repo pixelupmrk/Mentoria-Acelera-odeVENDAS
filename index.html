@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>PixelUp Mentoria</title>
 <meta name="theme-color" content="#0ea5ff" />
-<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%230b0f1a"/><path d="M18 47V17h17c8 0 13 5 13 11s-5 11-13 11h-9v8h-8zm8-16h8c3 0 5-2 5-5s-2-5-5-5h-8v10z" fill="%230ea5ff"/></svg>'/>
 <style>
 :root{--bg:#0b0f1a;--primary:#0ea5ff;--text:#e6f1ff;--muted:#8aa3c2;--glow:0 12px 40px rgba(0,0,0,.35), inset 0 0 40px rgba(14,165,255,.08)}
 *{box-sizing:border-box}html,body{height:100%}
@@ -29,9 +28,7 @@ background:linear-gradient(180deg, rgba(14,165,255,.12), rgba(14,165,255,.05))}
 .module h3{margin:10px 0 0}
 .cover{width:100%;aspect-ratio:16/9;border-radius:14px;border:1px solid rgba(14,165,255,.25);
 background:radial-gradient(600px 200px at 20% 0%, rgba(14,165,255,.2), transparent 60%),
-radial-gradient(600px 200px at 100% 40%, rgba(51,204,255,.15), transparent 60%),#0d1322 center/cover no-repeat;
-overflow:hidden;display:grid;place-items:center}
-.cover img{width:100%;height:100%;object-fit:cover;border-radius:14px;display:block}
+radial-gradient(600px 200px at 100% 40%, rgba(51,204,255,.15), transparent 60%),#0d1322}
 .progress{height:10px;background:rgba(255,255,255,.08);border-radius:999px;overflow:hidden;margin:6px 0 8px}
 .progress>i{display:block;height:100%;background:linear-gradient(90deg, var(--primary), rgba(51,204,255,1));width:0%}
 .lesson{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;border:1px solid rgba(14,165,255,.25);
@@ -59,142 +56,438 @@ background:rgba(255,255,255,.06);color:var(--text);outline:none}
 <main id="app" class="container"></main>
 <footer class="foot">© PixelUp Marketing Digital & Mídia</footer>
 
+<!-- ========= CONTEÚDO EMBUTIDO (não depende de modulos.json) ========= -->
 <script>
-/* Desativa SW antigo para não cachear versão vazia */
+window.__INLINE_DATA__ = {
+  "modules": [
+    {
+      "slug": "m1",
+      "title": "Módulo 1 • Fundamentos do Negócio e Posicionamento",
+      "cover": "assets/cover-m1.png",
+      "summary": "Defina persona, proposta de valor e o plano de serviços alinhado ao seu posicionamento.",
+      "lessons": [
+        {
+          "slug": "m1-fundamentos-geral",
+          "title": "Fundamentos: Negócio, Posicionamento e Persona",
+          "cover": "assets/cover-m1.png",
+          "presentation": [
+            "Clareza de oferta: o que você entrega e para quem.",
+            "Posicionamento: a promessa central e o espaço que você ocupa no mercado.",
+            "Persona ideal: dores, desejos, objeções e linguagem.",
+            "Proposta de valor: transformação oferecida e diferenciais reais.",
+            "Jornada do cliente: Descoberta → Consideração → Decisão → Fidelização.",
+            "Plano de serviços: níveis, escopo, limites e rituais de entrega.",
+            "KPI’s iniciais: leads gerados, taxa de resposta, agendamentos e conversão."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        },
+        {
+          "slug": "m1-proposta-de-negocio",
+          "title": "Proposta de Negócio (Oferta e Diferenciais)",
+          "cover": "assets/cover-m1.png",
+          "presentation": [
+            "O que você entrega (serviço principal + entregáveis).",
+            "Para quem (recorte de público) e em qual nicho.",
+            "Principais dores do cliente e a transformação prometida.",
+            "Proposta de valor (modelo: Eu ajudo [público] a [transformação] por meio de [método], sem [objeção]).",
+            "Evidências: cases, depoimentos, métricas.",
+            "Identidade visual mínima: logo, paleta, tipografia e aplicações."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        },
+        {
+          "slug": "m1-posicionamento-e-persona",
+          "title": "Posicionamento e Persona",
+          "cover": "assets/cover-m1.png",
+          "presentation": [
+            "Proposta única: promessa clara e específica.",
+            "Mapa de diferenciação: preço, velocidade, especialização e atendimento.",
+            "Persona: metas, dores, crenças e objeções.",
+            "Tom de voz: vocabulário, ritmo, gatilhos aceitos e proibidos.",
+            "Linha editorial: temas principais e limites de conteúdo."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        }
+      ]
+    },
+
+    {
+      "slug": "m2",
+      "title": "Módulo 2 • O Algoritmo do Meta (Facebook & Instagram)",
+      "cover": "assets/cover-m2.png",
+      "summary": "Entenda como o algoritmo distribui conteúdo e o que mais influencia alcance e engajamento.",
+      "lessons": [
+        {
+          "slug": "m2-algoritmo-2025",
+          "title": "Como o Algoritmo Funciona (2025)",
+          "cover": "assets/cover-m2.png",
+          "presentation": [
+            "Sinais de interesse: tempo de visualização, salvamentos, compartilhamentos e comentários iniciais.",
+            "Relevância por contexto: histórico do usuário, tema, formato e consistência.",
+            "Distribuição em ondas: primeiro para aquecidos, depois para similares.",
+            "Boas práticas: ganchos fortes, clareza de tema e chamada para ação.",
+            "Ritmo de postagem e constância: menos picos, mais consistência."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        },
+        {
+          "slug": "m2-pratica",
+          "title": "Aplicação Prática",
+          "cover": "assets/cover-m2.png",
+          "presentation": [
+            "Teste de formatos: Reels, Carrossel, Stories, Lives e Feed.",
+            "Ferramentas de rascunho e pré-visualização (ex.: feed previews).",
+            "Ciclos de 7–14 dias: medir, ajustar, reforçar o que performa.",
+            "Métricas: retenção, cliques de perfil, DMs e CTR de link."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        }
+      ]
+    },
+
+    {
+      "slug": "m3",
+      "title": "Módulo 3 • Cronograma de Postagens Estratégico",
+      "cover": "assets/cover-m3.png",
+      "summary": "Calendário por pilares, melhores horários e frequência por nicho.",
+      "lessons": [
+        {
+          "slug": "m3-cronograma",
+          "title": "Cronograma e Pilares",
+          "cover": "assets/cover-m3.png",
+          "presentation": [
+            "Pilares: educacional, prova social, bastidores, oferta, comunidade.",
+            "Planejamento semanal: 3 a 7 publicações (conforme capacidade).",
+            "Distribuição por formato (Reels/Carrossel/Stories/Live).",
+            "Agenda fixa de criação x publicação x análise."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        },
+        {
+          "slug": "m3-frequencia-e-modelos",
+          "title": "Frequência, Horários e Modelos",
+          "cover": "assets/cover-m3.png",
+          "presentation": [
+            "Frequência por nicho (B2B x B2C) e pela profundidade do conteúdo.",
+            "Horários de pico x horários de retenção (testes A/B).",
+            "Templates de calendário e checklists de postagem.",
+            "Modelo de semana tipo (seg a dom) para replicar."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        }
+      ]
+    },
+
+    {
+      "slug": "m4",
+      "title": "Módulo 4 • Conteúdo que Conecta",
+      "cover": "assets/cover-m4.png",
+      "summary": "Estrutura de vídeos, edição prática (CapCut/InShot) e design no Canva.",
+      "lessons": [
+        {
+          "slug": "m4-videos-que-engajam",
+          "title": "Como Gravar Vídeos que Engajam",
+          "cover": "assets/cover-m4.png",
+          "presentation": [
+            "Estrutura: gancho → contexto → valor → CTA.",
+            "Primeiros 3 segundos: promessa clara e específica.",
+            "Luz, áudio, enquadramento e ritmo de corte.",
+            "Roteiro rápido e treino diário (microhábitos)."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        },
+        {
+          "slug": "m4-edicao-e-design",
+          "title": "Edição Prática e Design",
+          "cover": "assets/cover-m4.png",
+          "presentation": [
+            "CapCut/InShot: cortes, legendas automáticas e trilhas.",
+            "Canva: identidade visual (fontes, paleta, hierarquia).",
+            "Padronização de capas e miniaturas (thumbnails).",
+            "Exportação otimizada e cuidados com taxa de bits."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        }
+      ]
+    },
+
+    {
+      "slug": "m5",
+      "title": "Módulo 5 • Copywriting com ChatGPT",
+      "cover": "assets/cover-m5.png",
+      "summary": "Aplique AIDA, PAS e 4Ps; use prompts práticos e crie títulos que geram cliques.",
+      "lessons": [
+        {
+          "slug": "m5-copy-ia",
+          "title": "Copywriting com IA",
+          "cover": "assets/cover-m5.png",
+          "presentation": [
+            "AIDA (Atenção, Interesse, Desejo, Ação) para Reels e Carrossel.",
+            "PAS (Problema, Agitação, Solução) para posts e anúncios.",
+            "4Ps (Problema, Promessa, Prova, Proposta) para landing e bio.",
+            "Exemplo aplicado: funil simples de captação via Instagram.",
+            "Modelo de abordagem comercial do funil e processo de vendas."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        },
+        {
+          "slug": "m5-formulas",
+          "title": "Fórmulas que Funcionam",
+          "cover": "assets/cover-m5.png",
+          "presentation": [
+            "Estruturas de carrossel com alta retenção (3 blocos + CTA).",
+            "Check de clareza: 1 ideia por slide, título simples e direto.",
+            "CTA’s: comentar, salvar, compartilhar, enviar DM e clicar no link."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        },
+        {
+          "slug": "m5-prompts-e-titulos",
+          "title": "Prompts e Títulos",
+          "cover": "assets/cover-m5.png",
+          "presentation": [
+            "Prompt-base: público, objetivo, oferta, tom de voz e restrições.",
+            "Variações por formato: post, story, reel, anúncio e email.",
+            "Títulos que geram clique e salvamento: números, urgência, benefício."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        }
+      ]
+    },
+
+    {
+      "slug": "m6",
+      "title": "Módulo 6 • Implementação de CRM",
+      "cover": "assets/cover-m6.png",
+      "summary": "Conceito, ferramentas e funil básico para organizar leads e follow-up.",
+      "lessons": [
+        {
+          "slug": "m6-o-que-e-crm",
+          "title": "O que é CRM e Por Quê",
+          "cover": "assets/cover-m6.png",
+          "presentation": [
+            "CRM como rotina: previsibilidade de receita e organização.",
+            "Exemplo prático: Trello adaptado com listas por etapa.",
+            "Indicadores mínimos: novos leads, conversões de etapa e taxa de ganho."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        },
+        {
+          "slug": "m6-ferramentas",
+          "title": "Ferramentas Gratuitas e Pagas",
+          "cover": "assets/cover-m6.png",
+          "presentation": [
+            "Gratuitas: Trello / Notion com views e etiquetas.",
+            "Pagas: RD Station, HubSpot (quando faz sentido).",
+            "Critérios: volume, time, integração, relatórios e custo."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        },
+        {
+          "slug": "m6-funil-basico",
+          "title": "Funil Básico & Organização",
+          "cover": "assets/cover-m6.png",
+          "presentation": [
+            "Etapas: Lead novo → Qualificado → Proposta → Fechamento.",
+            "Campos essenciais: origem, dor, produto de interesse, ticket, próxima ação.",
+            "Rotina de follow-up: quando, como e script curto."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        }
+      ]
+    },
+
+    {
+      "slug": "m7",
+      "title": "Módulo 7 • Processo Comercial e Técnicas de Venda",
+      "cover": "assets/cover-m7.png",
+      "summary": "Pitch, rapport, gatilhos e follow-up sem pressão para fechar mais e melhor.",
+      "lessons": [
+        {
+          "slug": "m7-processo-comercial",
+          "title": "Processo Comercial & Técnicas",
+          "cover": "assets/cover-m7.png",
+          "presentation": [
+            "Pitch: problema, promessa, prova e próxima ação.",
+            "Rapport e espelhamento: postura, vocabulário e ritmo.",
+            "Gatilhos: autoridade, prova, urgência honesta, garantia clara.",
+            "Follow-up leve: sequência de lembretes com valor a cada contato."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        }
+      ]
+    },
+
+    {
+      "slug": "m8",
+      "title": "Módulo 8 • Conexão com a Audiência e Humanização",
+      "cover": "assets/cover-m8.png",
+      "summary": "Conexão real com o público, bastidores e criação de comunidade engajada.",
+      "lessons": [
+        {
+          "slug": "m8-humanizacao",
+          "title": "Humanização & Comunidade",
+          "cover": "assets/cover-m8.png",
+          "presentation": [
+            "Conteúdos de conexão: bastidores, rotina e vulnerabilidade autêntica.",
+            "Rituais nos stories: prova social, enquete, bastidor e CTA leve.",
+            "Comunidade: naming, hashtags, encontros e conteúdo colaborativo."
+          ],
+          "form": [{ "id": "anotacoes_e_plano_de_acao", "label": "Anotações e plano de ação", "type": "textarea" }]
+        }
+      ]
+    }
+  ]
+};
+</script>
+
+<script>
+const SHOW_COVERS=false, COVER_BASE='ativos';
+
 (function(){try{
   if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(rs=>rs.forEach(r=>r.unregister()))}
   if(window.caches){caches.keys().then(keys=>keys.forEach(k=>caches.delete(k)))}
 }catch(e){}})();
 
-/* Capas desativadas por padrão (sem 404) */
-const SHOW_COVERS=false, COVER_BASE='ativos';
-
-/* ===== DADOS INLINE (sem fetch) ===== */
-const DATA={"modules":[
-{"slug":"m1","title":"Módulo 1 • Fundamentos do Negócio e Posicionamento","cover":"assets/cover-m1.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 1).","lessons":[
- {"slug":"m1-mentoria-md01","title":"Proposta de Negócio | Posicionamento | Persona | Propósito | Jornada do Cliente","cover":"assets/cover-m1.png","presentation":["","Proposta de negócio","Posicionamento de marca","Persona ideal","Proposta de valor","Jornada do cliente","Plano de serviço"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},
- {"slug":"m1-mentoria--md1_1","title":"Proposta de Negócio","cover":"assets/cover-m1.png","presentation":["O que você entrega","PARA QUEM ELES ENTREGAM?","QUAL TIPO de serviço ofertam no nicho? Tipos de serviços do nicho.","Quais as dores do cliente desse nicho [Ou o que ele quer e qual problema você resolve dele?] ou seja… Qual a transformação você entrega ? OU VALOR","Sobre as dores","O QUE O CLIENTE QUER? Transformação","Identidade Visual do Negócio - Sua logo"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},
- {"slug":"m1-mentoria--md1_2","title":"Posicionamento e Persona","cover":"assets/cover-m1.png","presentation":["POSICIONAMENTO DE MERCADO","Qual sua promessa? (VALOR)","Proposta de Valor","Fórmula Proposta de valor:","Persona ideal"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}
-]},
-{"slug":"m2","title":"Módulo 2 • O Algoritmo do Meta (Facebook & Instagram)","cover":"assets/cover-m2.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 2).","lessons":[
- {"slug":"m2-doc-md02","title":"A Algoritmo do Instagram 2025","cover":"assets/cover-m2.png","presentation":["","Como funciona o algoritmo com detalhes e como você entrega seus conteúdos 👇🏽"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},
- {"slug":"m2-doc-md2_1","title":"O Algoritmo na Prática","cover":"assets/cover-m2.png","presentation":["APLICATIVO FEED PREVIEWS- PRA TESTAR O DESIGN",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}
-]},
-{"slug":"m3","title":"Módulo 3 • Cronograma de Postagens Estratégico","cover":"assets/cover-m3.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 3).","lessons":[
- {"slug":"m3-doc--md3_0","title":"Cronograma de Postagens","cover":"assets/cover-m3.png","presentation":[""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},
- {"slug":"m3-doc--md3_1","title":"Frequência e Modelos","cover":"assets/cover-m3.png","presentation":["","o que é FONE:"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}
-]},
-{"slug":"m4","title":"Módulo 4 • Conteúdo que Conecta","cover":"assets/cover-m4.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 4).","lessons":[
- {"slug":"m4-doc-md4_0","title":"Como Gravar Vídeos que Engajam","cover":"assets/cover-m4.png","presentation":["","OLD","Importante saber: O Instagram está sempre em mudança e para ficar no topo e ter bons resultados, você precisa estar atualizado nas tendências e regras de algoritmo. (mas calma, você não precisa ficar viciado em aprender diário, basta acopanhar as tubinas do nível de produto) QUAL MELHOR PLANO PARA VOCÊ?"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},
- {"slug":"m4-doc-md4_1","title":"Edição Prática e Design","cover":"assets/cover-m4.png","presentation":["[4","[+ COMPLEMENTO DE ALUNA[",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}
-]},
-{"slug":"m5","title":"Módulo 5 • Copywriting com ChatGPT","cover":"assets/cover-m5.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 5).","lessons":[
- {"slug":"m5-doc--md5_0","title":"Copywriting com IA","cover":"assets/cover-m5.png","presentation":["","Segue modelo de abordagem para funil e processo comercial S[data_n£","",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},
- {"slug":"m5-doc--md5_1","title":"Fórmulas que Funcionam","cover":"assets/cover-m5.png","presentation":["","",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},
- {"slug":"m5-doc--md5_2","title":"Prompts e Títulos","cover":"assets/cover-m5.png","presentation":["","Vamos PDF:",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}
-]},
-{"slug":"m6","title":"Módulo 6 • Implementação de CRM","cover":"assets/cover-m6.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 6).","lessons":[
- {"slug":"m6-doc-md-6_0","title":"O que é CRM e Por Quê","cover":"assets/cover-m6.png","presentation":["IMPLEMENTANDO CRM – TRELLO"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},
- {"slug":"m6-doc-md-6_1","title":"Ferramentas Gratuitas e Pagas","cover":"assets/cover-m6.png","presentation":["FERRAMENTAS","sdfsdf",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]},
- {"slug":"m6-doc-md-6_2","title":"Funil Básico & Organização","cover":"assets/cover-m6.png","presentation":["Funil básico e organização de leads"],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}
-]},
-{"slug":"m7","title":"Módulo 7 • Processo Comercial e Técnicas de Venda","cover":"assets/cover-m7.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 7).","lessons":[
- {"slug":"m7-doc-md07","title":"Processo Comercial & Técnicas","cover":"assets/cover-m7.png","presentation":[""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}
-]},
-{"slug":"m8","title":"Módulo 8 • Conexão com a Audiência e Humanização","cover":"assets/cover-m8.png","summary":"Conteúdo carregado dos seus arquivos (Módulo 8).","lessons":[
- {"slug":"m8-doc-md08","title":"Humanização & Comunidade","cover":"assets/cover-m8.png","presentation":["","Aluno: VAMOS TESTAR",""],"form":[{"id":"anotacoes_e_plano_de_acao","label":"Anotações e plano de ação","type":"textarea"}]}
-]}
-]};
-
-/* Ajuste de capas conforme config */
-DATA.modules.forEach(m=>{ if(m.cover) m.cover=m.cover.replace('assets',COVER_BASE); (m.lessons||[]).forEach(l=>{ if(l.cover) l.cover=l.cover.replace('assets',COVER_BASE); }) });
-if(!SHOW_COVERS){ DATA.modules.forEach(m=>{ m.cover=null; (m.lessons||[]).forEach(l=>l.cover=null); }) }
-
-/* ===== APP ===== */
 function $(s,el){return (el||document).querySelector(s)}
 const app=$("#app");
 const STORE={A:'pxup-answers',P:'pxup-progress',
   getA(){try{return JSON.parse(localStorage.getItem(this.A)||'{}')}catch(e){return {}}},
   setA(v){localStorage.setItem(this.A,JSON.stringify(v))},
   getP(){try{return JSON.parse(localStorage.getItem(this.P)||'{"done":{}}')}catch(e){return {done:{}}}},
-  setP(v){localStorage.setItem(this.P,JSON.stringify(v))} };
+  setP(v){localStorage.setItem(this.P,JSON.stringify(v))}
+};
 const pct=(d,t)=>t?Math.round(d/t*100):0;
 const modStats=m=>{const d=(STORE.getP().done)||{};const total=m.lessons.length;const done=m.lessons.filter(l=>d[m.slug+'/'+l.slug]).length;return{done,total,pct:pct(done,total)}};
-const allStats=()=>{const s=DATA.modules.map(modStats);let d=0,t=0;s.forEach(x=>{d+=x.done;t+=x.total});return{done:d,total:t,pct:pct(d,t)}};
-function saveForm(ms,ls){const a=STORE.getA();a[ms+'/'+ls]={};[...app.querySelectorAll('[data-field]')].forEach(i=>a[ms+'/'+ls][i.dataset.field]=i.value.trim());STORE.setA(a)}
-function loadForm(ms,ls){const a=(STORE.getA()[ms+'/'+ls])||{};[...app.querySelectorAll('[data-field]')].forEach(i=>{if(a[i.dataset.field]!=null)i.value=a[i.dataset.field];})}
-function markDone(ms,ls){const p=STORE.getP();p.done||(p.done={});p.done[ms+'/'+ls]=true;STORE.setP(p)}
-function renderHome(){const s=allStats();app.innerHTML=`
-<section class="card">
-  <h1>Mentoria PixelUp • App de Aulas</h1>
-  <p class="note">Respostas ficam salvas neste dispositivo (localStorage).</p>
-  <div style="display:grid;grid-template-columns:120px 1fr;gap:12px;align-items:center">
-    <div class="badge">Progresso geral</div>
-    <div><div class="progress"><i style="width:${s.pct}%"></i></div><small>${s.done}/${s.total} aulas • ${s.pct}%</small></div>
-  </div>
-</section>
-<section class="grid" style="margin-top:16px">
-  ${DATA.modules.map(m=>{const st=modStats(m);const cover=(m.cover&&SHOW_COVERS)?`<img src="${m.cover}" onerror="this.remove()">`:'';return`
-  <article class="module">
-    <div class="cover">${cover}</div>
-    <h3>${m.title}</h3>
-    <p class="note">${m.summary||''}</p>
-    <div class="progress"><i style="width:${st.pct}%"></i></div>
-    <small>${st.done}/${st.total} aulas</small>
-    <div style="margin-top:10px"><a class="btn" href="#/module/${m.slug}">Ver aulas</a></div>
-  </article>`}).join('')}
-</section>`;}
-function renderModule(slug){const m=DATA.modules.find(x=>x.slug===slug);if(!m){app.innerHTML='<section class="card"><p>Módulo não encontrado.</p></section>';return}const st=modStats(m);const cover=(m.cover&&SHOW_COVERS)?`<img src="${m.cover}" onerror="this.remove()">`:'';app.innerHTML=`<section class="card">
-  <a class="btn ghost" href="#/">← Início</a>
-  <div class="cover" style="margin-top:10px">${cover}</div>
-  <h2 style="margin:10px 0">${m.title}</h2>
-  <p class="note">${m.summary||''}</p>
-  <div class="progress"><i style="width:${st.pct}%"></i></div><small>${st.done}/${st.total} aulas</small>
-  <hr/>
-  ${m.lessons.map(l=>{const done=(STORE.getP().done||{})[m.slug+'/'+l.slug];return`
-    <div class="lesson">
-      <div><strong>${l.title}</strong><br><small class="note">${done?'Concluída':'Pendente'}</small></div>
-      <a class="btn" href="#/lesson/${m.slug}/${l.slug}">${done?'Revisar':'Abrir'}</a>
-    </div>`}).join('')}
-</section>`;}
-function renderLesson(ms,ls){const m=DATA.modules.find(x=>x.slug===ms);const l=m&&m.lessons.find(x=>x.slug===ls);if(!m||!l){app.innerHTML='<section class="card"><p>Aula não encontrada.</p></section>';return}const cover=(l.cover&&SHOW_COVERS)?`<img src="${l.cover}" onerror="this.remove()">`:'';app.innerHTML=`<section class="card">
-  <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
-    <a class="btn ghost" href="#/module/${m.slug}">← ${m.title}</a><span class="badge">Aula</span>
-  </div>
-  <div class="cover" style="margin-top:10px">${cover}</div>
-  <h2 style="margin:10px 0">${l.title}</h2>
-  <h3>Apresentação</h3>
-  <ul class="note" style="line-height:1.6;margin-top:6px">${(l.presentation||[]).map(p=>`<li>${p}</li>`).join('')}</ul>
-  <hr/>
-  <h3>Questionário Prático</h3>
-  <form class="form">
-    ${(l.form||[]).map(q=>{const base=`<label for="${q.id}">${q.label}</label>`;if(q.type==='text') return base+`<input data-field="${q.id}" id="${q.id}" type="text" placeholder="Digite aqui...">`;if(q.type==='select') return base+`<select data-field="${q.id}" id="${q.id}">${(q.options||[]).map(o=>`<option>${o}</option>`).join('')}</select>`;return base+`<textarea data-field="${q.id}" id="${q.id}" placeholder="Escreva aqui..."></textarea>`;}).join('')}
-  </form>
-  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
-    <button id="saveBtn" class="btn">Salvar respostas</button>
-    <button id="doneBtn" class="btn ghost">Marcar como concluída</button>
-    <button id="exportBtn" class="btn ghost">Exportar (.json)</button>
-    <button id="printBtn" class="btn ghost">Imprimir</button>
-  </div>
-  <p id="status" class="note" style="margin-top:8px"></p>
-</section>`;
-$("#saveBtn").addEventListener("click",()=>{saveForm(m.slug,l.slug);flash("Respostas salvas!")});
-$("#doneBtn").addEventListener("click",()=>{saveForm(m.slug,l.slug);markDone(m.slug,l.slug);flash("Aula marcada como concluída.")});
-$("#exportBtn").addEventListener("click",()=>{saveForm(m.slug,l.slug);const data=STORE.getA()[m.slug+'/'+l.slug]||{};const blob=new Blob([JSON.stringify({module:m.title,lesson:l.title,answers:data},null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`${m.slug}-${l.slug}-respostas.json`;a.click();});
-$("#printBtn").addEventListener("click",()=>window.print());
-loadForm(m.slug,l.slug);
-function flash(msg){const s=$("#status");s.textContent=msg;setTimeout(()=>s.textContent="",2000)}
+const allStats=D=>{const s=D.modules.map(modStats);let d=0,t=0;s.forEach(x=>{d+=x.done;t+=x.total});return{done:d,total:t,pct:pct(d,t)}};
+
+function rewriteCovers(D){
+  D.modules.forEach(m=>{ if(m.cover) m.cover=m.cover.replace('assets',COVER_BASE); (m.lessons||[]).forEach(l=>{ if(l.cover) l.cover=l.cover.replace('assets',COVER_BASE); }) });
+  if(!SHOW_COVERS){ D.modules.forEach(m=>{ m.cover=null; (m.lessons||[]).forEach(l=>l.cover=null); }); }
 }
-function router(){const p=(location.hash||'').slice(1).split('/').filter(Boolean);
-  if(!p.length) return renderHome(); if(p[0]==='module'&&p[1]) return renderModule(p[1]); if(p[0]==='lesson'&&p[1]&&p[2]) return renderLesson(p[1],p[2]); renderHome();}
-window.addEventListener('hashchange',router);
-document.addEventListener('DOMContentLoaded',()=>{$("#homeBtn").addEventListener('click',()=>location.hash='');
-  $("#search").addEventListener('input',e=>{const q=(e.target.value||'').toLowerCase().trim(); if(!q){router();return}
-    const res=[]; DATA.modules.forEach(m=>m.lessons.forEach(l=>{const hay=(m.title+' '+(m.summary||'')+' '+l.title+' '+(l.presentation||[]).join(' ')).toLowerCase(); if(hay.includes(q)) res.push({m,l});}));
-    app.innerHTML=`<section class="card"><h2>Resultados para: “${q}”</h2>${res.length? res.map(({m,l})=>`<div class="lesson"><div><strong>${l.title}</strong><br><small class="note">${m.title}</small></div><a class="btn" href="#/lesson/${m.slug}/${l.slug}">Abrir</a></div>`).join('') : '<p class="note">Nada encontrado.</p>'}</section>`;
+function saveForm(ms,ls){const a=STORE.getA();a[ms+'/'+ls]={};[...app.querySelectorAll('[data-field]')].forEach(i=>a[ms+'/'+ls][i.dataset.field]=i.value.trim());STORE.setA(a)}
+function loadForm(ms,ls){const a=(STORE.getA()[ms+'/'+ls])||{};[...app.querySelectorAll('[data-field]')].forEach(i=>{if(a[i.dataset.field]!=null)i.value=a[i.dataset.field]})}
+function markDone(ms,ls){const p=STORE.getP();p.done||(p.done={});p.done[ms+'/'+ls]=true;STORE.setP(p)}
+
+function renderHome(D){
+  const s=allStats(D);
+  app.innerHTML=`
+  <section class="card">
+    <h1>Mentoria PixelUp • App de Aulas</h1>
+    <p class="note">Respostas ficam salvas neste dispositivo (localStorage).</p>
+    <div style="display:grid;grid-template-columns:120px 1fr;gap:12px;align-items:center">
+      <div class="badge">Progresso geral</div>
+      <div><div class="progress"><i style="width:${s.pct}%"></i></div><small>${s.done}/${s.total} aulas • ${s.pct}%</small></div>
+    </div>
+  </section>
+  <section class="grid" style="margin-top:16px">
+    ${D.modules.map(m=>{
+      const st=modStats(m);
+      const cover=(SHOW_COVERS&&m.cover)?`<div class="cover"><img src="${m.cover}" onerror="this.remove()"></div>`:`<div class="cover"></div>`;
+      return `
+      <article class="module">
+        ${cover}
+        <h3>${m.title}</h3>
+        <p class="note">${m.summary||''}</p>
+        <div class="progress"><i style="width:${st.pct}%"></i></div>
+        <small>${st.done}/${st.total} aulas</small>
+        <div style="margin-top:10px"><a class="btn" href="#/module/${m.slug}">Ver aulas</a></div>
+      </article>`;
+    }).join('')}
+  </section>`;
+}
+function renderModule(D,slug){
+  const m=D.modules.find(x=>x.slug===slug);
+  if(!m){app.innerHTML='<section class="card"><p>Módulo não encontrado.</p></section>';return}
+  const st=modStats(m);
+  const cover=(SHOW_COVERS&&m.cover)?`<div class="cover"><img src="${m.cover}" onerror="this.remove()"></div>`:`<div class="cover"></div>`;
+  app.innerHTML=`<section class="card">
+    <a class="btn ghost" href="#/">← Início</a>
+    ${cover}
+    <h2 style="margin:10px 0">${m.title}</h2>
+    <p class="note">${m.summary||''}</p>
+    <div class="progress"><i style="width:${st.pct}%"></i></div><small>${st.done}/${st.total} aulas</small>
+    <hr/>
+    ${m.lessons.map(l=>{
+      const done=(STORE.getP().done||{})[m.slug+'/'+l.slug];
+      return `<div class="lesson">
+        <div><strong>${l.title}</strong><br><small class="note">${done?'Concluída':'Pendente'}</small></div>
+        <a class="btn" href="#/lesson/${m.slug}/${l.slug}">${done?'Revisar':'Abrir'}</a>
+      </div>`;
+    }).join('')}
+  </section>`;
+}
+function renderLesson(D,ms,ls){
+  const m=D.modules.find(x=>x.slug===ms);
+  const l=m && m.lessons.find(x=>x.slug===ls);
+  if(!m||!l){app.innerHTML='<section class="card"><p>Aula não encontrada.</p></section>';return}
+  app.innerHTML=`<section class="card">
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+      <a class="btn ghost" href="#/module/${m.slug}">← ${m.title}</a><span class="badge">Aula</span>
+    </div>
+    <h2 style="margin:10px 0">${l.title}</h2>
+    <h3>Apresentação</h3>
+    <ul class="note" style="line-height:1.6;margin-top:6px">
+      ${(l.presentation||[]).filter(Boolean).map(p=>`<li>${p}</li>`).join('')}
+    </ul>
+    <hr/>
+    <h3>Questionário Prático</h3>
+    <form class="form">
+      ${(l.form||[]).map(q=>{
+        const base = `<label for="${q.id}">${q.label}</label>`;
+        if(q.type==='text')   return base+`<input data-field="${q.id}" id="${q.id}" type="text" placeholder="Digite aqui...">`;
+        if(q.type==='select') return base+`<select data-field="${q.id}" id="${q.id}">${(q.options||[]).map(o=>`<option>${o}</option>`).join('')}</select>`;
+        return base+`<textarea data-field="${q.id}" id="${q.id}" placeholder="Escreva aqui..."></textarea>`;
+      }).join('')}
+    </form>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
+      <button id="saveBtn" class="btn">Salvar respostas</button>
+      <button id="doneBtn" class="btn ghost">Marcar como concluída</button>
+      <button id="exportBtn" class="btn ghost">Exportar (.json)</button>
+      <button id="printBtn" class="btn ghost">Imprimir</button>
+    </div>
+    <p id="status" class="note" style="margin-top:8px"></p>
+  </section>`;
+  $("#saveBtn").addEventListener("click",()=>{saveForm(m.slug,l.slug);flash("Respostas salvas!")});
+  $("#doneBtn").addEventListener("click",()=>{saveForm(m.slug,l.slug);markDone(m.slug,l.slug);flash("Aula marcada como concluída.")});
+  $("#exportBtn").addEventListener("click",()=>{
+    saveForm(m.slug,l.slug);
+    const data=(JSON.parse(localStorage.getItem(STORE.A)||'{}'))[m.slug+'/'+l.slug]||{};
+    const blob=new Blob([JSON.stringify({module:m.title,lesson:l.title,answers:data},null,2)],{type:"application/json"});
+    const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`${m.slug}-${l.slug}-respostas.json`;a.click();
+  });
+  $("#printBtn").addEventListener("click",()=>window.print());
+  loadForm(m.slug,l.slug);
+  function flash(msg){const s=$("#status");s.textContent=msg;setTimeout(()=>s.textContent="",2000)}
+}
+
+function boot(DATA){
+  rewriteCovers(DATA);
+  function router(){
+    const p=(location.hash||'').slice(1).split('/').filter(Boolean);
+    if(!p.length) return renderHome(DATA);
+    if(p[0]==='module'&&p[1]) return renderModule(DATA,p[1]);
+    if(p[0]==='lesson'&&p[1]&&p[2]) return renderLesson(DATA,p[1],p[2]);
+    renderHome(DATA);
+  }
+  window.addEventListener('hashchange',router);
+  $("#homeBtn").addEventListener('click',()=>location.hash='');
+  $("#search").addEventListener('input',e=>{
+    const q=(e.target.value||'').toLowerCase().trim();
+    if(!q){router();return}
+    const res=[];
+    DATA.modules.forEach(m=>m.lessons.forEach(l=>{
+      const hay=(m.title+' '+(m.summary||'')+' '+l.title+' '+(l.presentation||[]).join(' ')).toLowerCase();
+      if(hay.includes(q)) res.push({m,l});
+    }));
+    app.innerHTML=`<section class="card"><h2>Resultados para: “${q}”</h2>${
+      res.length? res.map(({m,l})=>`<div class="lesson"><div><strong>${l.title}</strong><br><small class="note">${m.title}</small></div><a class="btn" href="#/lesson/${m.slug}/${l.slug}">Abrir</a></div>`).join('') : '<p class="note">Nada encontrado.</p>'}</section>`;
   });
   router();
-});
+}
+
+// inicia usando SOMENTE o dado embutido
+document.addEventListener('DOMContentLoaded',()=>boot(window.__INLINE_DATA__));
 </script>
 </body>
 </html>
