@@ -202,5 +202,387 @@ document.addEventListener('DOMContentLoaded',()=>{$("#homeBtn").addEventListener
   router();
 });
 </script>
-</body>
+</body>{
+  "modules": [
+    {
+      "slug": "m1",
+      "title": "Módulo 1 • Fundamentos do Negócio e Posicionamento",
+      "cover": "assets/cover-m1.png",
+      "summary": "🔹 Módulo 1: Fundamentos do Negócio e Posicionamento",
+      "lessons": [
+        {
+          "slug": "mentoria-md01",
+          "title": "🔹 Módulo 1: Fundamentos do Negócio e Posicionamento",
+          "cover": "assets/cover-m1.png",
+          "presentation": [
+            "🔹 Módulo 1: Fundamentos do Negócio e Posicionamento",
+            "1. Definição da Persona Ideal",
+            "Antes de qualquer estratégia, é essencial saber com...do seu cliente ideal, baseada em dados reais e comportamentos.",
+            "Exercício prático sugerido:Crie sua persona respondendo perguntas como:",
+            "Nome fictício, idade, profissão",
+            "Quais são suas dores e desejos?",
+            "Onde ela busca informação?",
+            "Quais redes sociais usa?",
+            "2. Proposta de Valor e Diferenciação no Mercado",
+            "A proposta de valor é o que torna seu produto ou serviço único e relevante para o seu público.",
+            "Exemplo de estrutura: Eu ajudo [público-alvo] a [transformação desejada] através de [método/serviço], sem [objeção].",
+            "3. Escolha do Plano de Serviço Ideal",
+            "Monte um plano coerente com seu posicionamento e a capacidade de entrega. Exemplos:",
+            "Plano Essencial: X entregas por semana",
+            "Plano Avançado: X + reuniões estratégicas",
+            "Plano Premium: Gestão completa + relatórios + consultoria",
+            "BÔNUS: Jornada do Cliente",
+            "Mapeie os estágios: Descoberta → Consideração → Decisão → Fidelização",
+            "Defina conteúdos, gatilhos e ações pra cada etapa",
+            "• Fim"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        },
+        {
+          "slug": "mentoria-md1-1",
+          "title": "Proposta de Negócio",
+          "cover": "assets/cover-m1.png",
+          "presentation": [
+            "O que você entrega",
+            "PARA QUEM ELES ENTREGAM?",
+            "QUAL TIPO de serviço ofertam no nicho? Tipos de serviços do nicho.",
+            "Quais as dores do cliente desse nicho [Ou o que ele quer e qual problema você resolve dele?] ou seja… Qual a transformação você entrega ? OU VALOR",
+            "Sobre as dores",
+            "O QUE O CLIENTE QUER? Transformação",
+            "Identidade Visual do Negócio - Sua logo"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        },
+        {
+          "slug": "mentoria-md1-2",
+          "title": "Posicionamento e Persona",
+          "cover": "assets/cover-m1.png",
+          "presentation": [
+            "POSICIONAMENTO DE MERCADO",
+            "Qual sua promessa? (VALOR)",
+            "Proposta de Valor",
+            "Fórmula Proposta de valor:",
+            "Persona ideal"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "m2",
+      "title": "Módulo 2 • O Algoritmo do Meta (Facebook & Instagram)",
+      "cover": "assets/cover-m2.png",
+      "summary": "A Algoritmo do Instagram 2025",
+      "lessons": [
+        {
+          "slug": "doc-md02",
+          "title": "A Algoritmo do Instagram 2025",
+          "cover": "assets/cover-m2.png",
+          "presentation": [
+            "A Algoritmo do Instagram 2025",
+            "Como o algoritmo funciona e entrega os conteúdos",
+            "O que influencia o alcance orgânico",
+            "Engajamento inicial e comportamento do usuário",
+            "Boas práticas para consistência e crescimento"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        },
+        {
+          "slug": "doc-md2-1",
+          "title": "O Algoritmo na Prática",
+          "cover": "assets/cover-m2.png",
+          "presentation": [
+            "APLICATIVO FEED PREVIEWS - PRA TESTAR O DESIGN",
+            "Teste, itere e meça os resultados por 7/14 dias",
+            "Ajuste seu calendário pelo que performa"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "m3",
+      "title": "Módulo 3 • Cronograma de Postagens Estratégico",
+      "cover": "assets/cover-m3.png",
+      "summary": "Cronograma de postagens — melhores horários, frequência e modelos",
+      "lessons": [
+        {
+          "slug": "doc-md3-0",
+          "title": "Cronograma de Postagens",
+          "cover": "assets/cover-m3.png",
+          "presentation": [
+            "Defina melhores horários e dias por nicho",
+            "Planeje temas por pilares (educacional, prova social, bastidores, oferta, comunidade)",
+            "Distribua formatos: Reels, Carrossel, Stories, Live, Feed"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        },
+        {
+          "slug": "doc-md3-1",
+          "title": "Frequência e Modelos",
+          "cover": "assets/cover-m3.png",
+          "presentation": [
+            "Frequência ideal por nicho",
+            "Templates e modelos de calendário",
+            "Exemplo de semana tipo (seg a dom)"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "m4",
+      "title": "Módulo 4 • Conteúdo que Conecta",
+      "cover": "assets/cover-m4.png",
+      "summary": "Como gravar vídeos que engajam; edição prática; design com Canva",
+      "lessons": [
+        {
+          "slug": "doc-md4-0",
+          "title": "Como Gravar Vídeos que Engajam",
+          "cover": "assets/cover-m4.png",
+          "presentation": [
+            "Ganchos, valor, CTA",
+            "Roteiro simples: abertura forte, contexto, valor, CTA",
+            "Luz, áudio e enquadramento",
+            "Prática diária curta"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        },
+        {
+          "slug": "doc-md4-1",
+          "title": "Edição Prática e Design",
+          "cover": "assets/cover-m4.png",
+          "presentation": [
+            "Edição CapCut/InShot: cortes, legendas, trilha",
+            "Canva: fontes, identidade visual, hierarquia",
+            "Padronização de capas e thumbnails"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "m5",
+      "title": "Módulo 5 • Copywriting com ChatGPT",
+      "cover": "assets/cover-m5.png",
+      "summary": "Como criar textos persuasivos com IA: AIDA, PAS, 4Ps, prompts e títulos",
+      "lessons": [
+        {
+          "slug": "doc-md5-0",
+          "title": "Copywriting com IA",
+          "cover": "assets/cover-m5.png",
+          "presentation": [
+            "Uso prático de AIDA, PAS, 4Ps no Instagram",
+            "Prompt base: público, objetivo, oferta, tom de voz",
+            "Adapte para post, story, reel, anúncio"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        },
+        {
+          "slug": "doc-md5-1",
+          "title": "Fórmulas que Funcionam",
+          "cover": "assets/cover-m5.png",
+          "presentation": [
+            "Modelos de copy prontos",
+            "Estrutura de carrossel de alta retenção",
+            "CTA que gera comentário, DM e clique"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        },
+        {
+          "slug": "doc-md5-2",
+          "title": "Prompts e Títulos",
+          "cover": "assets/cover-m5.png",
+          "presentation": [
+            "Prompts inteligentes por objetivo",
+            "Títulos que geram clique e salvamento"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "m6",
+      "title": "Módulo 6 • Implementação de CRM",
+      "cover": "assets/cover-m6.png",
+      "summary": "O que é CRM, por que usar, ferramentas e funil básico",
+      "lessons": [
+        {
+          "slug": "doc-md-6-0",
+          "title": "O que é CRM e Por Quê",
+          "cover": "assets/cover-m6.png",
+          "presentation": [
+            "Conceitos de CRM",
+            "Benefícios: organização, follow-up, previsibilidade",
+            "Exemplo: Trello adaptado como CRM simples"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        },
+        {
+          "slug": "doc-md-6-1",
+          "title": "Ferramentas Gratuitas e Pagas",
+          "cover": "assets/cover-m6.png",
+          "presentation": [
+            "Gratuitas: Trello, Notion",
+            "Pagas: RD Station etc.",
+            "Critérios de escolha por estágio do negócio"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        },
+        {
+          "slug": "doc-md-6-2",
+          "title": "Funil Básico & Organização",
+          "cover": "assets/cover-m6.png",
+          "presentation": [
+            "Etapas do funil: Lead → Qualificado → Proposta → Fechamento",
+            "Campos mínimos por lead",
+            "Rotina de atualização e follow-up"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "m7",
+      "title": "Módulo 7 • Processo Comercial e Técnicas de Venda",
+      "cover": "assets/cover-m7.png",
+      "summary": "Pitch, rapport, gatilhos e follow-up sem pressão",
+      "lessons": [
+        {
+          "slug": "doc-md07",
+          "title": "Processo Comercial & Técnicas",
+          "cover": "assets/cover-m7.png",
+          "presentation": [
+            "Como montar um pitch que gera interesse",
+            "Rapport e técnicas de espelhamento",
+            "Follow-up eficiente e respeitoso"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "m8",
+      "title": "Módulo 8 • Conexão com a Audiência e Humanização",
+      "cover": "assets/cover-m8.png",
+      "summary": "Conexão real, bastidores, stories e comunidade",
+      "lessons": [
+        {
+          "slug": "doc-md08",
+          "title": "Humanização & Comunidade",
+          "cover": "assets/cover-m8.png",
+          "presentation": [
+            "Como gerar conexão real (sem forçar)",
+            "Bastidores, vulnerabilidade e rotina nos stories",
+            "Criando uma comunidade engajada"
+          ],
+          "form": [
+            {
+              "id": "anotacoes_e_plano_de_acao",
+              "label": "Anotações e plano de ação",
+              "type": "textarea"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
 </html>
