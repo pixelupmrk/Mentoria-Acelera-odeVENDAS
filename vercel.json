@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/modulos.json", "destination": "/modulos.json" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
