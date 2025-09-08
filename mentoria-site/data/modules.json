@@ -1,0 +1,315 @@
+{
+  "modules": [
+    {
+      "id": "m1",
+      "order": 1,
+      "slug": "fundamentos-do-negocio-e-posicionamento",
+      "title": "Fundamentos do Negócio e Posicionamento",
+      "cover": "assets/m1.png",
+      "objective": "Definir persona, proposta de valor e posicionamento para criar base sólida de marketing e vendas.",
+      "sections": [
+        {
+          "title": "Conceitos‑chave",
+          "items": [
+            "Persona ideal (dor, desejo, objeções, linguagem).",
+            "Proposta de valor clara: quem você ajuda, com o quê e como se diferencia.",
+            "Plano de serviço ideal alinhado ao estágio do negócio."
+          ]
+        },
+        {
+          "title": "Passo a passo",
+          "items": [
+            "Aplicar questionário de persona e sintetizar em 1 parágrafo.",
+            "Redigir a frase: “Ajudamos [persona] a [resultado] com [diferencial].”",
+            "Escolher o plano de serviço com base em capacidade e demanda."
+          ]
+        },
+        {
+          "title": "Checklist",
+          "items": [
+            "Persona validada com 5 entrevistas.",
+            "Proposta de valor em 1 frase.",
+            "Oferta/Plano definidos."
+          ]
+        },
+        {
+          "title": "Tarefa",
+          "items": [
+            "Enviar a frase de valor e a ficha da persona para validação."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "order": 2,
+      "slug": "o-algoritmo-do-meta",
+      "title": "O Algoritmo do Meta (Facebook & Instagram)",
+      "cover": "assets/m2.png",
+      "objective": "Entender como o algoritmo distribui conteúdos e como maximizar alcance orgânico.",
+      "sections": [
+        {
+          "title": "Conceitos‑chave",
+          "items": [
+            "Sinais de interesse: retenção, comentários, compartilhamentos e salvamentos.",
+            "Importância dos primeiros minutos (engajamento inicial).",
+            "Relevância x qualidade x relacionamento."
+          ]
+        },
+        {
+          "title": "Passo a passo",
+          "items": [
+            "Abrir o conteúdo com gancho forte em 2s.",
+            "Entregar valor prático com exemplos curtos.",
+            "Fechar com CTA claro (comentar, salvar, DM)."
+          ]
+        },
+        {
+          "title": "Checklist",
+          "items": [
+            "Gancho pronto antes de gravar.",
+            "Legenda com CTA único.",
+            "Thumbnail/capa legível."
+          ]
+        },
+        {
+          "title": "Tarefa",
+          "items": [
+            "Publicar 1 Reels com gancho → valor → CTA e medir retenção de 3s/8s."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "order": 3,
+      "slug": "cronograma-de-postagens-estrategico",
+      "title": "Cronograma de Postagens Estratégico",
+      "cover": "assets/m3.png",
+      "objective": "Criar calendário simples que sustente consistência e crescimento.",
+      "sections": [
+        {
+          "title": "Conceitos‑chave",
+          "items": [
+            "Melhores dias/horários baseados nos Insights.",
+            "Frequência por nicho e formato (Reels, feed, stories).",
+            "Uso de temas‑pilar para não travar."
+          ]
+        },
+        {
+          "title": "Passo a passo",
+          "items": [
+            "Definir 3 pilares (educação, prova, bastidores).",
+            "Planejar 2–4 posts/semana com antecedência de 15 dias.",
+            "Usar templates e agendamento."
+          ]
+        },
+        {
+          "title": "Checklist",
+          "items": [
+            "Calendário mensal preenchido.",
+            "2 reservas de posts ‘coringa’.",
+            "KPIs: alcance, salvamentos e DMs."
+          ]
+        },
+        {
+          "title": "Tarefa",
+          "items": [
+            "Entregar um calendário de 2 semanas seguindo os pilares."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "order": 4,
+      "slug": "conteudo-que-conecta",
+      "title": "Conteúdo que Conecta",
+      "cover": "assets/m4.png",
+      "objective": "Produzir vídeos e peças com estrutura que engaja e leva à ação.",
+      "sections": [
+        {
+          "title": "Conceitos‑chave",
+          "items": [
+            "Estrutura: Gancho → Valor → CTA.",
+            "Edição prática (CapCut/InShot).",
+            "Design no Canva: layout, fontes, identidade."
+          ]
+        },
+        {
+          "title": "Passo a passo",
+          "items": [
+            "Escrever roteiro de 3 takes (gancho, prova/valor, CTA).",
+            "Gravar em pé, boa luz e áudio.",
+            "Editar com cortes curtos e legendas."
+          ]
+        },
+        {
+          "title": "Checklist",
+          "items": [
+            "Capa com promessa clara.",
+            "Legenda com CTA único e link/DM.",
+            "Duração 20–40s (Reels)."
+          ]
+        },
+        {
+          "title": "Tarefa",
+          "items": [
+            "Publicar 1 Reels + 1 carrossel com mesmo tema."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "order": 5,
+      "slug": "copywriting-com-chatgpt",
+      "title": "Copywriting com ChatGPT",
+      "cover": "assets/m5.png",
+      "objective": "Criar copy persuasiva para posts, Reels e anúncios usando IA.",
+      "sections": [
+        {
+          "title": "Conceitos‑chave",
+          "items": [
+            "Fórmulas: AIDA, PAS, 4Ps e seu uso.",
+            "Como briefar a IA: público, objetivo, tom e formato."
+          ]
+        },
+        {
+          "title": "Prompts prontos",
+          "items": [
+            "AIDA (Reels): roteiro com gancho + valor + CTA.",
+            "PAS (carrossel): problema → agitação → solução + CTA DM.",
+            "4Ps (anúncio): promessa, quadro, prova, proposta."
+          ]
+        },
+        {
+          "title": "Checklist",
+          "items": [
+            "Linha 1 com gancho forte.",
+            "1 benefício + prova/mini‑exemplo.",
+            "1 CTA explícito."
+          ]
+        },
+        {
+          "title": "Tarefa",
+          "items": [
+            "Produzir 3 peças: Reels (AIDA), carrossel (PAS), anúncio (4Ps)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "order": 6,
+      "slug": "implementacao-de-crm",
+      "title": "Implementação de CRM",
+      "cover": "assets/m6.png",
+      "objective": "Implantar funil e rotina de follow‑up para aumentar conversão.",
+      "sections": [
+        {
+          "title": "Conceitos‑chave",
+          "items": [
+            "O que é CRM e ganhos: controle por estágio e previsibilidade.",
+            "Ferramentas: Trello/Notion/HubSpot (gratuito), RD/Pipedrive (pagos)."
+          ]
+        },
+        {
+          "title": "Funil recomendado",
+          "items": [
+            "Novo Lead → Contato iniciado → Diagnóstico → Proposta → Negociação → Fechado → Onboarding."
+          ]
+        },
+        {
+          "title": "Operação diária",
+          "items": [
+            "Campos obrigatórios: origem, ticket, próxima ação/data.",
+            "Regras de follow‑up 48h/7d e listas de remarketing."
+          ]
+        },
+        {
+          "title": "Tarefa",
+          "items": [
+            "Montar funil e cadastrar 10 leads reais com próxima ação definida."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m7",
+      "order": 7,
+      "slug": "processo-comercial-e-tecnicas-de-venda",
+      "title": "Processo Comercial e Técnicas de Venda",
+      "cover": "assets/m7.png",
+      "objective": "Criar pitch, conduzir reunião e executar follow‑up consultivo.",
+      "sections": [
+        {
+          "title": "Pitch 20–30s",
+          "items": [
+            "Quem você ajuda → dor → prova/diferencial → próximo passo.",
+            "Ex.: PixelUp ajuda comércios locais com vídeos e tráfego pago; envio 3 ideias com orçamento baixo?"
+          ]
+        },
+        {
+          "title": "Roteiro de reunião",
+          "items": [
+            "Abertura, diagnóstico (3–5 perguntas), caminho, proposta e próximo passo (teste 30 dias)."
+          ]
+        },
+        {
+          "title": "Follow‑up",
+          "items": [
+            "D0 resumo + ativo; D+2 case; D+7 remover objeção; D+14 ‘arquivo ou avançamos?’; D+30 novidade."
+          ]
+        },
+        {
+          "title": "Tarefa",
+          "items": [
+            "Gravar o pitch; executar fluxo D0/D+2/D+7 em 10 leads."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m8",
+      "order": 8,
+      "slug": "conexao-com-a-audiencia-e-humanizacao",
+      "title": "Conexão com a Audiência e Humanização",
+      "cover": "assets/m8.png",
+      "objective": "Construir comunidade leal mostrando bastidores, rotina e valores.",
+      "sections": [
+        {
+          "title": "Pilares",
+          "items": [
+            "Autenticidade, bastidores, vulnerabilidade, presença nas DMs/comentários."
+          ]
+        },
+        {
+          "title": "Roteiro de stories (5 quadros)",
+          "items": [
+            "Gancho → contexto → bastidores → aprendizado → CTA (‘Quer o checklist?’)."
+          ]
+        },
+        {
+          "title": "Calendário semanal (ex.)",
+          "items": [
+            "Seg rotina; Ter bastidores; Qua aprendizado; Qui prova social; Sex quadro leve; Sáb/Dom vida real."
+          ]
+        },
+        {
+          "title": "Tarefa",
+          "items": [
+            "Publicar 1 sequência de bastidores + 1 de vulnerabilidade e responder 100% das DMs."
+          ]
+        }
+      ]
+    }
+  ],
+  "brand": {
+    "name": "PixelUp Mentoria",
+    "colors": {
+      "primary": "#00BFFF",
+      "bg": "#0B1622"
+    }
+  }
+}
