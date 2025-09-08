@@ -6,36 +6,138 @@
       "slug": "fundamentos-do-negocio-e-posicionamento",
       "title": "Fundamentos do Negócio e Posicionamento",
       "cover": "assets/m1.png",
-      "objective": "Definir persona, proposta de valor e posicionamento para criar base sólida de marketing e vendas.",
+      "objective": "Definir persona, proposta de valor e posicionamento para criar base sólida.",
       "sections": [
         {
-          "title": "Conceitos‑chave",
+          "title": "1. Definição da Persona Ideal",
           "items": [
-            "Persona ideal (dor, desejo, objeções, linguagem).",
-            "Proposta de valor clara: quem você ajuda, com o quê e como se diferencia.",
-            "Plano de serviço ideal alinhado ao estágio do negócio."
+            "Antes de qualquer estratégia, é essencial saber com quem você está falando. A persona é a representação semifictícia do seu cliente ideal, baseada em dados reais e comportamentos.",
+            "Exercício prático sugerido:",
+            "Crie sua persona respondendo perguntas como:",
+            "Nome fictício, idade, profissão",
+            "Quais são suas dores e desejos?",
+            "Onde ela busca informação?",
+            "Quais redes sociais usa?",
+            "Que tipo de conteúdo ela consome?"
           ]
         },
         {
-          "title": "Passo a passo",
+          "title": "2. Proposta de Valor e Diferenciação no Mercado",
           "items": [
-            "Aplicar questionário de persona e sintetizar em 1 parágrafo.",
-            "Redigir a frase: “Ajudamos [persona] a [resultado] com [diferencial].”",
-            "Escolher o plano de serviço com base em capacidade e demanda."
+            "Aqui o foco é entender: Por que alguém deve comprar de você e não do concorrente?",
+            "A proposta de valor comunica o que você entrega, como entrega e por que é relevante.",
+            "Dica prática:",
+            "Escreva uma frase simples que responda:",
+            "“Eu ajudo [persona] a [solução] através de [diferencial].”",
+            "Exemplo: “Ajudo clínicas de estética a atrair clientes todos os dias com vídeos estratégicos e tráfego pago.”"
           ]
         },
         {
-          "title": "Checklist",
+          "title": "3. Escolha do Plano de Serviço Ideal",
           "items": [
-            "Persona validada com 5 entrevistas.",
-            "Proposta de valor em 1 frase.",
-            "Oferta/Plano definidos."
+            "Com base na persona e na proposta de valor, o cliente pode escolher o plano mais adequado (básico, intermediário ou avançado).",
+            "Esse alinhamento evita frustrações e melhora a entrega.",
+            "Atividade orientada:",
+            "Reflita: Qual plano atende melhor o estágio atual do seu negócio?",
+            "Quais recursos e suportes você realmente precisa agora?",
+            "🧠 Questionário para Definição de Persona"
           ]
         },
         {
-          "title": "Tarefa",
+          "title": "1. Nome fictício da persona:",
           "items": [
-            "Enviar a frase de valor e a ficha da persona para validação."
+            "(Exemplo: Ana, Lucas, Camila...)",
+            "👉 ________________________________________"
+          ]
+        },
+        {
+          "title": "2. Idade aproximada:",
+          "items": [
+            "(Exemplo: 25 anos, 35 a 40 anos...)",
+            "👉 ________________________________________"
+          ]
+        },
+        {
+          "title": "3. Profissão ou ocupação:",
+          "items": [
+            "(Exemplo: Esteticista, vendedor, gerente de loja...)",
+            "👉 ________________________________________"
+          ]
+        },
+        {
+          "title": "4. Quais são suas principais dores e dificuldades?",
+          "items": [
+            "(O que mais incomoda essa pessoa hoje? Quais obstáculos enfrenta?)",
+            "👉 ____________________________________________________________________",
+            "👉 ____________________________________________________________________"
+          ]
+        },
+        {
+          "title": "5. Quais são seus desejos ou objetivos?",
+          "items": [
+            "(O que ela mais quer alcançar? O que é sucesso para ela?)",
+            "👉 ____________________________________________________________________",
+            "👉 ____________________________________________________________________"
+          ]
+        },
+        {
+          "title": "6. Onde essa pessoa busca informação?",
+          "items": [
+            "(Sites, blogs, YouTube, indicações, Instagram...)",
+            "👉 ____________________________________________________________________"
+          ]
+        },
+        {
+          "title": "7. Quais redes sociais essa pessoa usa com frequência?",
+          "items": [
+            "(Ex: Instagram, Facebook, TikTok, WhatsApp, LinkedIn...)",
+            "👉 ____________________________________________________________________"
+          ]
+        },
+        {
+          "title": "8. Que tipo de conteúdo ela consome?",
+          "items": [
+            "(Vídeos curtos, tutoriais, memes, depoimentos, conteúdo educativo...)",
+            "👉 ____________________________________________________________________",
+            "👉 ____________________________________________________________________",
+            "✅ Como Avaliar e Definir sua Persona Ideal"
+          ]
+        },
+        {
+          "title": "1. Agrupe padrões",
+          "items": [
+            "Leia todas as respostas e destaque os padrões:",
+            "Faixa etária mais comum?",
+            "Profissões ou áreas de atuação que se repetem?",
+            "Dores e desejos mais citados?",
+            "🧠 Exemplo: Se 70% relatam “falta de tempo para criar conteúdo”, essa é uma dor central."
+          ]
+        },
+        {
+          "title": "2. Resuma em um perfil único",
+          "items": [
+            "Com base nos padrões, crie um texto curto que represente sua persona:",
+            "\"A Ana tem 32 anos, é dona de um salão de beleza, usa muito o Instagram, mas não sabe como criar conteúdo. Ela quer atrair mais clientes e profissionalizar sua presença online. Busca dicas no YouTube e consome vídeos curtos com soluções práticas.”"
+          ]
+        },
+        {
+          "title": "3. Valide com sua realidade",
+          "items": [
+            "Pense nos seus clientes reais:",
+            "Esse perfil bate com quem você já atende?",
+            "Esse tipo de cliente valoriza seu serviço?",
+            "Se a resposta for sim: você encontrou sua persona ideal.",
+            "Se não: ajuste a persona com base no que funciona melhor no seu histórico."
+          ]
+        },
+        {
+          "title": "4. Use para decisões de marketing",
+          "items": [
+            "A persona vai guiar:",
+            "O tipo de conteúdo que você posta (vídeos rápidos? Dicas práticas?)",
+            "O tom da sua comunicação (profissional? leve? direta?)",
+            "O formato de anúncios pagos",
+            "A oferta e linguagem dos seus serviços"
           ]
         }
       ]
@@ -46,36 +148,40 @@
       "slug": "o-algoritmo-do-meta",
       "title": "O Algoritmo do Meta (Facebook & Instagram)",
       "cover": "assets/m2.png",
-      "objective": "Entender como o algoritmo distribui conteúdos e como maximizar alcance orgânico.",
+      "objective": "Entender como o algoritmo distribui conteúdos e como maximizar o alcance orgânico.",
       "sections": [
         {
-          "title": "Conceitos‑chave",
+          "title": "1. Como o algoritmo funciona e entrega os conteúdos",
           "items": [
-            "Sinais de interesse: retenção, comentários, compartilhamentos e salvamentos.",
-            "Importância dos primeiros minutos (engajamento inicial).",
-            "Relevância x qualidade x relacionamento."
+            "O algoritmo da Meta analisa o comportamento dos usuários para decidir o que mostrar no feed, nos stories e nos reels. Ele prioriza conteúdos que geram interação rápida (curtidas, comentários, compartilhamentos e tempo de visualização).",
+            "📌 Ou seja: quanto mais relevante for o seu conteúdo para o público, mais ele será entregue."
           ]
         },
         {
-          "title": "Passo a passo",
+          "title": "2. O que influencia o alcance orgânico",
           "items": [
-            "Abrir o conteúdo com gancho forte em 2s.",
-            "Entregar valor prático com exemplos curtos.",
-            "Fechar com CTA claro (comentar, salvar, DM)."
+            "O alcance orgânico depende de alguns fatores-chave:",
+            "Qualidade do conteúdo",
+            "Engajamento nos primeiros minutos",
+            "Frequência de publicações",
+            "Relacionamento com o público (DMs, respostas, salvamentos)",
+            "💡 Postagens com muitos salvamentos, comentários ou tempo de retenção tendem a ser mais distribuídas."
           ]
         },
         {
-          "title": "Checklist",
+          "title": "3. Engajamento inicial e comportamento do usuário",
           "items": [
-            "Gancho pronto antes de gravar.",
-            "Legenda com CTA único.",
-            "Thumbnail/capa legível."
-          ]
-        },
-        {
-          "title": "Tarefa",
-          "items": [
-            "Publicar 1 Reels com gancho → valor → CTA e medir retenção de 3s/8s."
+            "Os primeiros minutos após a publicação são decisivos. O algoritmo testa seu conteúdo com um grupo pequeno: se houver boas reações, ele expande a entrega.",
+            "👁 Além disso, o comportamento do usuário também conta: se ele interage com seus stories, posts e responde mensagens, o algoritmo entende que há conexão e mostra mais conteúdos seus a ele.",
+            "🚀 DICA: Comece com um GANCHO FORTE",
+            "O primeiro segundo do seu conteúdo (vídeo, post ou legenda) precisa chamar a atenção imediatamente. É ele que faz a pessoa parar de rolar o feed.",
+            "Exemplos de ganchos:",
+            "“3 erros que estão matando o seu Instagram...”",
+            "“Você está postando, mas ninguém engaja? Isso aqui é pra você.”",
+            "“Se eu tivesse que começar do zero, faria isso aqui…”",
+            "Depois do gancho, entregue valor real (uma dica, um passo a passo, uma história) e finalize com uma chamada para ação (CTA):",
+            "👉 “Salva esse post pra não esquecer”",
+            "👉 “Me conta nos comentários se isso faz sentido pra você”"
           ]
         }
       ]
@@ -89,33 +195,40 @@
       "objective": "Criar calendário simples que sustente consistência e crescimento.",
       "sections": [
         {
-          "title": "Conceitos‑chave",
+          "title": "1. Melhores horários e dias para postagem",
           "items": [
-            "Melhores dias/horários baseados nos Insights.",
-            "Frequência por nicho e formato (Reels, feed, stories).",
-            "Uso de temas‑pilar para não travar."
+            "Publicar no momento certo faz toda a diferença para o alcance.",
+            "O ideal é postar quando seu público está mais ativo — geralmente entre 11h e 13h ou 18h e 20h, de terça a quinta.",
+            "📌 Dica: Use as métricas do Instagram (Insights) para ver quando seus seguidores estão online."
           ]
         },
         {
-          "title": "Passo a passo",
+          "title": "2. Frequência ideal por nicho",
           "items": [
-            "Definir 3 pilares (educação, prova, bastidores).",
-            "Planejar 2–4 posts/semana com antecedência de 15 dias.",
-            "Usar templates e agendamento."
+            "Cada segmento exige uma constância diferente.",
+            "Estética e beleza: 4 a 5 posts por semana (reels + stories)",
+            "B2B e serviços: 3 posts bem elaborados por semana",
+            "Varejo e produto: diária ou intercalada com promoções, depoimentos e bastidores",
+            "🎯 Mais importante que a quantidade, é a consistência."
           ]
         },
         {
-          "title": "Checklist",
+          "title": "3. Templates e modelos de calendário",
           "items": [
-            "Calendário mensal preenchido.",
-            "2 reservas de posts ‘coringa’.",
-            "KPIs: alcance, salvamentos e DMs."
-          ]
-        },
-        {
-          "title": "Tarefa",
-          "items": [
-            "Entregar um calendário de 2 semanas seguindo os pilares."
+            "Facilite a organização com um calendário mensal ou semanal de conteúdo.",
+            "Use modelos prontos no Canva ou chatGPT com categorias como:",
+            "Conteúdo educativo",
+            "Prova social (depoimentos, bastidores)",
+            "Chamada para ação",
+            "Oferta/promoção",
+            "📂 Você pode montar blocos fixos por dia da semana e deixar espaço para conteúdo espontâneo.",
+            "🗓 Exemplo de Cronograma de Postagens – Formato Semanal",
+            "✅ Dicas extras:",
+            "Stories todos os dias com bastidores, enquetes e interações rápidas",
+            "Planeje com 1 semana de antecedência.",
+            "Utilize Canva para preparar os criativos com base nos temas",
+            "Separe os posts em cores ou etiquetas: “Educar”, “Engajar”, “Vender”",
+            "."
           ]
         }
       ]
@@ -129,33 +242,49 @@
       "objective": "Produzir vídeos e peças com estrutura que engaja e leva à ação.",
       "sections": [
         {
-          "title": "Conceitos‑chave",
+          "title": "1. Como gravar vídeos que engajam: estrutura (gancho, valor, CTA)",
           "items": [
-            "Estrutura: Gancho → Valor → CTA.",
-            "Edição prática (CapCut/InShot).",
-            "Design no Canva: layout, fontes, identidade."
+            "Para reter a atenção do público, um vídeo precisa seguir uma ordem estratégica:",
+            "Gancho (1º segundo): Frase impactante ou provocativa para fazer a pessoa parar.",
+            "Valor: Entregue uma dica, solução ou informação útil rapidamente.",
+            "CTA (chamada para ação): Incentive o público a comentar, salvar, compartilhar ou te chamar no Whats.",
+            "🎯 Exemplo de estrutura: “Você quer mais clientes? Então evita esse erro aqui…”"
           ]
         },
         {
-          "title": "Passo a passo",
+          "title": "2. Edição prática com CapCut ou InShot",
           "items": [
-            "Escrever roteiro de 3 takes (gancho, prova/valor, CTA).",
-            "Gravar em pé, boa luz e áudio.",
-            "Editar com cortes curtos e legendas."
+            "Você não precisa de programas complexos: com o CapCut ou InShot, é possível:",
+            "Cortar partes desnecessárias",
+            "Adicionar legendas automáticas",
+            "Inserir trilha sonora e efeitos de zoom",
+            "Colocar logotipo e identidade visual",
+            "💡 Dica: Mantenha cortes rápidos e música de fundo suave para manter o ritmo."
           ]
         },
         {
-          "title": "Checklist",
+          "title": "3. Design com Canva: dicas de layout, fontes e identidade visual",
           "items": [
-            "Capa com promessa clara.",
-            "Legenda com CTA único e link/DM.",
-            "Duração 20–40s (Reels)."
-          ]
-        },
-        {
-          "title": "Tarefa",
-          "items": [
-            "Publicar 1 Reels + 1 carrossel com mesmo tema."
+            "O Canva é uma ferramenta poderosa e acessível para criar imagens que conectam com sua audiência.",
+            "Use fontes legíveis e cores da sua marca",
+            "Crie padrão visual para que seus posts sejam reconhecidos no feed",
+            "Mantenha espaço em branco e organização nos elementos (não polua!)",
+            "📌 Dica bônus: Crie um kit de marca no Canva com logotipo, fontes e cores fixas.",
+            "🎥 Desafio de Vídeo Teste – “1 Dica, 1 Minuto”",
+            "Objetivo: Criar um vídeo curto e direto com potencial de engajamento.",
+            "Formato: Reels, TikTok ou Story com legenda.",
+            "📋 Roteiro:",
+            "Gancho (1–3 segundos):",
+            "👉 “Você sabia que isso pode estar afastando clientes do seu Instagram?”",
+            "Valor (até 45 segundos):",
+            "Explique um erro comum e dê uma dica de correção.",
+            "Exemplo: “Muita gente posta sem mostrar o rosto. Mostrar quem está por trás da marca aumenta a confiança do público.”",
+            "Chamada para Ação (últimos 5 segundos):",
+            "👉 “Se fez sentido, salva esse vídeo e me acompanha pra mais dicas!”",
+            "🎯 Teste:",
+            "Poste com e sem legenda para ver o impacto",
+            "Teste dois horários diferentes (manhã e noite)",
+            "Reposte nos stories no dia seguinte com enquete: “Essa dica fez sentido pra você?”"
           ]
         }
       ]
@@ -169,32 +298,102 @@
       "objective": "Criar copy persuasiva para posts, Reels e anúncios usando IA.",
       "sections": [
         {
-          "title": "Conceitos‑chave",
+          "title": "1. Como criar textos persuasivos com IA",
           "items": [
-            "Fórmulas: AIDA, PAS, 4Ps e seu uso.",
-            "Como briefar a IA: público, objetivo, tom e formato."
+            "O ChatGPT é uma ferramenta poderosa para gerar textos que vendem. Com os prompts certos, você consegue criar chamadas, legendas, descrições e mensagens comerciais que despertam o interesse do público.",
+            "💡 A chave está em saber o que pedir e como direcionar a IA com clareza."
           ]
         },
         {
-          "title": "Prompts prontos",
+          "title": "2. Fórmulas testadas: AIDA, PAS, 4Ps",
           "items": [
-            "AIDA (Reels): roteiro com gancho + valor + CTA.",
-            "PAS (carrossel): problema → agitação → solução + CTA DM.",
-            "4Ps (anúncio): promessa, quadro, prova, proposta."
+            "Essas estruturas ajudam a organizar o texto de forma persuasiva:",
+            "AIDA: Atenção, Interesse, Desejo, Ação",
+            "PAS: Problema, Agitação, Solução",
+            "4Ps: Problema, Promessa, Prova, Proposta",
+            "📌 Use essas fórmulas como base para montar seus prompts."
           ]
         },
         {
-          "title": "Checklist",
+          "title": "3. Prompts inteligentes e exemplos prontos",
           "items": [
-            "Linha 1 com gancho forte.",
-            "1 benefício + prova/mini‑exemplo.",
-            "1 CTA explícito."
+            "Um bom prompt direciona o ChatGPT a criar algo útil.",
+            "Exemplo:",
+            "“Crie uma legenda para Instagram usando a fórmula AIDA, falando sobre como atrair mais clientes com vídeos curtos, voltado para esteticistas.”",
+            "🧠 Você também pode salvar modelos prontos para adaptar conforme o conteúdo."
           ]
         },
         {
-          "title": "Tarefa",
+          "title": "4. Títulos e legendas que geram cliques e salvamentos",
           "items": [
-            "Produzir 3 peças: Reels (AIDA), carrossel (PAS), anúncio (4Ps)."
+            "Títulos e primeiras frases precisam ser chamativas.",
+            "Use perguntas, listas, números e ganchos fortes, como:",
+            "“Você está fazendo isso errado no seu Instagram?”",
+            "“3 dicas para dobrar o engajamento sem gastar em anúncios”",
+            "✨ O segredo está em provocar curiosidade e entregar valor.",
+            "🤝 Como desenvolver uma boa relação com o ChatGPT (e usar com inteligência)"
+          ]
+        },
+        {
+          "title": "1. Seja claro e específico no que quer",
+          "items": [
+            "Quanto mais direto e contextualizado for seu pedido, melhor será o resultado.",
+            "💬 Evite: “Faz um post aí pra mim”",
+            "✅ Prefira: “Crie uma legenda para Instagram sobre o poder do vídeo marketing para clínicas de estética, com um tom persuasivo e profissional.”"
+          ]
+        },
+        {
+          "title": "2. Contextualize como se fosse um briefing",
+          "items": [
+            "O ChatGPT trabalha melhor com cenário. Diga quem você é, para quem é o conteúdo e o objetivo.",
+            "💬 Exemplo:",
+            "“Sou dono de uma agência de marketing chamada PixelUp. Quero um texto explicando o que é tráfego pago para empresários locais que não entendem nada sobre isso.”"
+          ]
+        },
+        {
+          "title": "3. Use estrutura nos pedidos:",
+          "items": [
+            "Uma ótima fórmula para prompt é:",
+            "[Ação] + [Assunto] + [Objetivo] + [Estilo/Tom]",
+            "💬 Exemplo:",
+            "“Escreva uma copy para anúncio no Instagram sobre mentoria de marketing, com objetivo de gerar leads, num tom direto e persuasivo.”"
+          ]
+        },
+        {
+          "title": "4. Reutilize conversas e refine os resultados",
+          "items": [
+            "Você pode pedir ajustes:",
+            "🔁 “Mais curto”, “Mais informal”, “Inclui emojis”, “Dá um exemplo real”, etc."
+          ]
+        },
+        {
+          "title": "5. Crie seus próprios “prompts fixos”",
+          "items": [
+            "Salve comandos que funcionam bem para você e use como modelo. Exemplo:",
+            "“Crie um roteiro para Reels com base na fórmula gancho + valor + CTA. Tema: [insira aqui]. Público: [descreva aqui]. Tom: leve, profissional.”",
+            "📌 Prompt Base – PixelUp (Modelo Personalizado)",
+            "Sou dono(a) de uma agência de marketing digital chamada PixelUp, especializada em tráfego pago, criação de conteúdo e vídeos estratégicos.",
+            "Quero que você atue como um especialista em marketing e copywriting.",
+            "Gere um conteúdo com base nas informações abaixo:",
+            "📍 Tema:",
+            "[Insira o assunto principal – ex: “Importância do tráfego pago para negócios locais”]",
+            "🎯 Objetivo:",
+            "[O que você quer alcançar – ex: “gerar leads”, “educar o público”, “criar autoridade”]",
+            "🧑 Público-alvo:",
+            "[Descreva a persona – ex: “Dona de clínica de estética que quer atrair mais clientes pelo Instagram”]",
+            "🗣 Tom de voz:",
+            "[Ex: leve, profissional, direto, amigável, descontraído]",
+            "📱 Formato desejado:",
+            "[Post para feed, legenda de carrossel, roteiro para Reels, copy para anúncio, etc.]",
+            "🧠 Extras (opcional):",
+            "Use uma fórmula de copy (AIDA, PAS, 4Ps), inclua CTA e exemplos práticos. Se possível, adicione emojis.",
+            "✅ Exemplo pronto com preenchimento:",
+            "Sou dono da agência PixelUp. Gere um post para o Instagram com base no tema “Vídeos que aumentam engajamento”.",
+            "Público: donos de pequenos negócios em Guaramirim.",
+            "Objetivo: mostrar a importância de vídeos curtos para atrair clientes.",
+            "Tom: profissional e persuasivo.",
+            "Formato: legenda de carrossel com 4 frases curtas e uma chamada para ação no final.",
+            "Use a fórmula AIDA e emojis."
           ]
         }
       ]
@@ -205,32 +404,63 @@
       "slug": "implementacao-de-crm",
       "title": "Implementação de CRM",
       "cover": "assets/m6.png",
-      "objective": "Implantar funil e rotina de follow‑up para aumentar conversão.",
+      "objective": "Implantar funil e rotina de follow-up para aumentar conversão.",
       "sections": [
         {
-          "title": "Conceitos‑chave",
+          "title": "1. O que é CRM e por que sua empresa precisa",
           "items": [
-            "O que é CRM e ganhos: controle por estágio e previsibilidade.",
-            "Ferramentas: Trello/Notion/HubSpot (gratuito), RD/Pipedrive (pagos)."
+            "CRM (Customer Relationship Management) é uma ferramenta que organiza o relacionamento com seus leads e clientes.",
+            "Com ele, você consegue acompanhá-los desde o primeiro contato até o fechamento da venda, mantendo tudo organizado e sem perder oportunidades.",
+            "📌 Empresas que usam CRM vendem mais porque mantêm o controle sobre o funil e sabem exatamente onde cada cliente está."
           ]
         },
         {
-          "title": "Funil recomendado",
+          "title": "2. Ferramentas gratuitas e pagas (Trello adaptado, RD Station, etc.)",
           "items": [
-            "Novo Lead → Contato iniciado → Diagnóstico → Proposta → Negociação → Fechado → Onboarding."
+            "Você pode começar com soluções simples e gratuitas, como:",
+            "Trello: adaptado com colunas como “Novo Lead”, “Contato Feito”, “Negociação”, “Fechado”",
+            "HubSpot CRM (gratuito): ideal para gestão mais profissional",
+            "RD Station, Pipedrive (pagas): indicadas para times de vendas",
+            "🛠️ Não é sobre a ferramenta mais cara, mas sobre a que você vai usar de verdade!"
           ]
         },
         {
-          "title": "Operação diária",
+          "title": "3. Construção de funil de vendas básico e organização de leads",
           "items": [
-            "Campos obrigatórios: origem, ticket, próxima ação/data.",
-            "Regras de follow‑up 48h/7d e listas de remarketing."
-          ]
-        },
-        {
-          "title": "Tarefa",
-          "items": [
-            "Montar funil e cadastrar 10 leads reais com próxima ação definida."
+            "Um funil simples pode ter 4 etapas:",
+            "Contato Inicial",
+            "Conversa/Apresentação",
+            "Proposta enviada",
+            "Cliente fechado",
+            "🎯 Organizar os leads por estágio ajuda a manter o foco e a eficiência comercial.",
+            "🔻 Exemplo de Funil de Vendas no CRM – Agência de Marketing Digital (PixelUp)",
+            "📌 Ferramentas indicadas:",
+            "Trello ou Notion com colunas para cada etapa",
+            "Etiquetas com: tipo de plano, data de follow-up, status de pagamento",
+            "Comentários dentro do card para registrar conversas e objeções",
+            "🔁 Opções de Remarketing com Leads do CRM",
+            "✅ 1. Segmento: Leads que não fecharam após a proposta",
+            "Ação:",
+            "→ Criar uma campanha de anúncios no Instagram/Facebook com o tema:",
+            "\"Ainda pensando em profissionalizar seu marketing? Veja como já ajudamos outras empresas!\"",
+            "Formato:",
+            "📹 Vídeo com case de cliente + depoimento",
+            "📩 Email ou mensagem com nova proposta + bônus limitado (ex: consultoria gratuita)",
+            "✅ 2. Segmento: Leads que interagiram, mas sumiram",
+            "Ação:",
+            "→ Enviar uma mensagem personalizada via WhatsApp ou e-mail:",
+            "\"Oi [nome], percebi que conversamos há um tempo e fiquei curioso: ainda tem interesse em melhorar sua presença online? Podemos ajustar a proposta pra você.\"",
+            "Complemento:",
+            "Enviar link de conteúdo gratuito (ebook, vídeo, checklist)",
+            "✅ 3. Segmento: Ex-clientes ou inativos há mais de 3 meses",
+            "Ação:",
+            "→ Oferecer um plano relâmpago de retorno com benefício exclusivo:",
+            "\"Estamos com uma condição especial para ex-clientes da PixelUp. Volte com 30% de bônus em serviços e análise gratuita do seu perfil atual.\"",
+            "Campanha recomendada:",
+            "Anúncio de retargeting + disparo segmentado por e-mail",
+            "🎯 Dica final:",
+            "Use o CRM para separar leads por etapa e comportamento (ex: “Proposta não aceita”, “Inativo 90 dias”, “Cliente perdido”).",
+            "Com isso, suas campanhas serão mais personalizadas e com maior taxa de conversão."
           ]
         }
       ]
@@ -241,31 +471,36 @@
       "slug": "processo-comercial-e-tecnicas-de-venda",
       "title": "Processo Comercial e Técnicas de Venda",
       "cover": "assets/m7.png",
-      "objective": "Criar pitch, conduzir reunião e executar follow‑up consultivo.",
+      "objective": "Criar pitch, conduzir reunião e executar follow-up consultivo.",
       "sections": [
         {
-          "title": "Pitch 20–30s",
+          "title": "1. Como montar um pitch comercial que gera interesse",
           "items": [
-            "Quem você ajuda → dor → prova/diferencial → próximo passo.",
-            "Ex.: PixelUp ajuda comércios locais com vídeos e tráfego pago; envio 3 ideias com orçamento baixo?"
+            "O pitch é a sua “apresentação relâmpago”. Ele precisa ser claro, direto e despertar curiosidade.",
+            "Inclua:",
+            "Quem você ajuda",
+            "O problema que resolve",
+            "O diferencial do seu serviço",
+            "🎯 Exemplo: “Nós ajudamos negócios locais a atrair clientes todos os dias usando vídeos e tráfego pago com baixo custo.”"
           ]
         },
         {
-          "title": "Roteiro de reunião",
+          "title": "2. Rapport, gatilhos mentais e técnicas de espelhamento",
           "items": [
-            "Abertura, diagnóstico (3–5 perguntas), caminho, proposta e próximo passo (teste 30 dias)."
+            "Criar conexão é essencial para vender. Técnicas como:",
+            "Rapport: usar linguagem e ritmo parecidos com o do cliente",
+            "Espelhamento: repetir sutilmente gestos ou expressões",
+            "Gatilhos mentais: usar escassez, autoridade, prova social, urgência...",
+            "🧠 O cliente compra quando sente confiança e identificação."
           ]
         },
         {
-          "title": "Follow‑up",
+          "title": "3. Como conduzir um follow-up eficiente e sem pressão",
           "items": [
-            "D0 resumo + ativo; D+2 case; D+7 remover objeção; D+14 ‘arquivo ou avançamos?’; D+30 novidade."
-          ]
-        },
-        {
-          "title": "Tarefa",
-          "items": [
-            "Gravar o pitch; executar fluxo D0/D+2/D+7 em 10 leads."
+            "A maioria das vendas acontece no 2º ou 3º contato. Por isso, o acompanhamento é essencial.",
+            "Use o CRM para agendar retornos",
+            "Sempre traga um valor novo na abordagem (ex: nova condição, dica extra, resultado de outro cliente)",
+            "💬 Evite ser insistente. Seja consultivo e mostre que está ali para ajudar, não só para vender."
           ]
         }
       ]
@@ -279,27 +514,32 @@
       "objective": "Construir comunidade leal mostrando bastidores, rotina e valores.",
       "sections": [
         {
-          "title": "Pilares",
+          "title": "1. Como gerar conexão real com o público (sem forçar)",
           "items": [
-            "Autenticidade, bastidores, vulnerabilidade, presença nas DMs/comentários."
+            "Pessoas se conectam com pessoas — e não com marcas frias.",
+            "Mostrar sua rotina, bastidores e valores cria empatia.",
+            "O segredo é ser autêntico, não perfeito. Você não precisa forçar intimidade: apenas esteja presente com verdade.",
+            "💡 Dica: Use a câmera frontal e fale como se fosse para um amigo."
           ]
         },
         {
-          "title": "Roteiro de stories (5 quadros)",
+          "title": "2. Estratégias de bastidores, vulnerabilidade e rotina nos stories",
           "items": [
-            "Gancho → contexto → bastidores → aprendizado → CTA (‘Quer o checklist?’)."
+            "Os stories são um ótimo canal para mostrar o que acontece por trás do conteúdo pronto.",
+            "Mostre sua rotina de trabalho",
+            "Compartilhe erros e aprendizados",
+            "Traga o público para os bastidores de uma entrega, gravação ou atendimento",
+            "📲 Quanto mais humano, maior a identificação."
           ]
         },
         {
-          "title": "Calendário semanal (ex.)",
+          "title": "3. Criando uma comunidade engajada e leal",
           "items": [
-            "Seg rotina; Ter bastidores; Qua aprendizado; Qui prova social; Sex quadro leve; Sáb/Dom vida real."
-          ]
-        },
-        {
-          "title": "Tarefa",
-          "items": [
-            "Publicar 1 sequência de bastidores + 1 de vulnerabilidade e responder 100% das DMs."
+            "Uma audiência fiel é construída com interação real e constância.",
+            "Responda comentários e DMs com atenção",
+            "Envolva seguidores com perguntas, enquetes e opiniões",
+            "Chame os seguidores pelo nome quando possível",
+            "🎯 Quem se sente visto, volta. E quem volta, compra."
           ]
         }
       ]
