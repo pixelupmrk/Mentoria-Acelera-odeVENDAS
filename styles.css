@@ -47,13 +47,13 @@ footer {
 
 /* Sidebar e Conteúdo */
 #sidebar {
-    flex: 0 0 300px; /* Largura fixa da sidebar */
+    flex: 0 0 300px; 
     background-color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    max-height: calc(100vh - 100px); /* Para fixar a altura em telas grandes */
-    overflow-y: auto; /* Permite scroll na sidebar */
+    max-height: calc(100vh - 100px); 
+    overflow-y: auto; 
 }
 
 #content {
@@ -69,19 +69,33 @@ footer {
     border-bottom: 2px solid #e0e0e0;
     padding-bottom: 10px;
     margin-top: 0;
+    margin-bottom: 30px;
 }
 
-#lesson-content a {
+/* Estilos de Conteúdo (para o texto do DOCX) */
+#lesson-content h3 {
     color: #0b2f8e;
-    text-decoration: none;
-    font-weight: bold;
+    margin-top: 25px;
+    border-left: 4px solid #ff9900; /* Destaque PixelUP */
+    padding-left: 10px;
 }
 
-#lesson-content a:hover {
-    text-decoration: underline;
+#lesson-content p {
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
-/* Navegação do Curso (Gerada pelo JS) */
+#lesson-content ul {
+    padding-left: 20px;
+}
+
+#lesson-content li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+
+/* Navegação do Curso */
 .module-header {
     background-color: #e6e9f1;
     padding: 10px;
@@ -90,6 +104,8 @@ footer {
     border-radius: 4px;
     font-weight: bold;
     display: block;
+    color: #333;
+    text-decoration: none;
 }
 
 .module-header:hover {
@@ -111,6 +127,7 @@ footer {
     text-decoration: none;
     border-bottom: 1px dashed #eee;
     font-size: 0.95em;
+    transition: background-color 0.2s;
 }
 
 .lesson-list li a:hover {
@@ -118,16 +135,33 @@ footer {
     color: #1a56db;
 }
 
-.warning {
-    background-color: #fff3cd;
-    color: #856404;
-    padding: 15px;
-    border-radius: 4px;
-    border: 1px solid #ffeeba;
-    margin-top: 20px;
-}
-
 /* Esconder lições inicialmente */
 .lesson-list {
     display: none;
+}
+
+/* Estilo do Botão de Download (Recurso) */
+.resource-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f0f3f8;
+    border: 1px solid #d8deeb;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.download-button-link {
+    display: inline-block;
+    background-color: #ff9900; /* Laranja de Destaque */
+    color: white !important;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none !important;
+    margin-top: 15px;
+    transition: background-color 0.2s;
+}
+
+.download-button-link:hover {
+    background-color: #e68a00;
 }
