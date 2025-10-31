@@ -1,9 +1,3 @@
-// O JSON (course_structure.json) é carregado antes deste script
-// A variável 'courseStructure' (ou similar) deve estar disponível globalmente.
-// Como o JSON está separado, vamos simular a leitura aqui.
-// NOTA: Para funcionar, você precisa do seu JSON em um arquivo chamado 'course_structure.json'
-
-// O conteúdo do seu JSON deve ser colocado dentro de 'courseStructure'
 const courseStructure = {
   "courseTitle": "Mentoria PixelUP: Acelera-deVENDAS",
   "description": "Estrutura modular completa do curso com mapeamento dos arquivos DOCX do repositório.",
@@ -160,58 +154,72 @@ const lessonTitleElement = document.getElementById('lesson-title');
 const lessonContentElement = document.getElementById('lesson-content');
 const baseUrl = courseStructure.repositoryBaseUrl;
 
+// Função para ler o DOCX do GitHub e exibir o conteúdo como HTML
+function displayDocxContent(url, title) {
+    lessonTitleElement.textContent = title;
+    lessonContentElement.innerHTML = `<p class="loading-message">⏳ Carregando conteúdo premium... Convertendo DOCX em HTML. Aguarde.</p>`;
+
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Erro ao carregar o arquivo DOCX. Status: ' + response.status);
+            }
+            return response.arrayBuffer();
+        })
+        .then(arrayBuffer => {
+            return mammoth.convertToHtml({arrayBuffer: arrayBuffer});
+        })
+        .then(result => {
+            // Exibe o conteúdo convertido na div
+            lessonContentElement.innerHTML = result.value; 
+            // Adiciona a opção de download para o caso de o aluno querer o original
+            lessonContentElement.innerHTML += `<p style="margin-top: 25px; border-top: 1px dashed #eee; padding-top: 15px;">**Opcional:** <a href="${url}" target="_blank">Clique aqui para baixar o arquivo DOCX original.</a></p>`;
+        })
+        .catch(error => {
+            lessonContentElement.innerHTML = `<p class="error-message">❌ **Erro ao carregar o conteúdo da aula:** O arquivo DOCX não pôde ser lido ou o CORS do GitHub está bloqueando. Por favor, utilize o link de download direto:</p><p><a href="${url}" target="_blank" style="color: red; font-weight: bold;">[CLIQUE PARA BAIXAR O ARQUIVO]</a></p>`;
+            console.error('Erro de carregamento ou conversão:', error);
+        });
+}
+
 // Função para renderizar a navegação do curso
 function renderNavigation() {
     courseStructure.modules.forEach(module => {
-        // 1. Cria o cabeçalho do módulo
         const moduleHeader = document.createElement('a');
         moduleHeader.className = 'module-header';
         moduleHeader.textContent = module.moduleTitle;
         moduleHeader.href = '#';
-        moduleHeader.id = 'module-' + module.moduleID;
         navigationElement.appendChild(moduleHeader);
 
-        // 2. Cria a lista de aulas (inicialmente escondida)
         const lessonList = document.createElement('ul');
         lessonList.className = 'lesson-list';
-        lessonList.id = 'lessons-' + module.moduleID;
         navigationElement.appendChild(lessonList);
 
-        // 3. Adiciona as lições
         module.lessons.forEach(lesson => {
             const listItem = document.createElement('li');
             const lessonLink = document.createElement('a');
             
-            // Constrói a URL do arquivo RAW no GitHub
-            const fileUrl = baseUrl + module.folderName + '/' + lesson.fileName;
+            const fileUrl = baseUrl + module.folderName.replace(/\s/g, '%20') + '/' + lesson.fileName.replace(/\s/g, '%20');
             
-            lessonLink.href = fileUrl;
-            lessonLink.target = '_blank'; // Abre o arquivo em uma nova aba
             lessonLink.textContent = lesson.lessonTitle;
+            lessonLink.href = '#lesson-' + lesson.moduleID;
             
-            // Adiciona um ícone/tag para identificar o tipo de conteúdo
-            if (lesson.contentType === 'RECURSO') {
-                 lessonLink.innerHTML += ' <span style="font-size: 0.8em; color: #ff9900;">(Recurso/Download)</span>';
-            } else {
-                 lessonLink.innerHTML += ' <span style="font-size: 0.8em; color: #1a56db;">(Aula/Texto)</span>';
-            }
-
-            // Adiciona um evento para atualizar o título do conteúdo principal
+            // Adiciona ícone de acordo com o tipo
+            let icon = lesson.contentType === 'RECURSO' ? '&#x1F4BE; ' : '&#x1F4DA; '; // Disquete (Recurso) ou Livro (Aula)
+            lessonLink.innerHTML = icon + lessonLink.textContent;
+            
             lessonLink.addEventListener('click', (e) => {
-                // Remove o e.preventDefault() para que o link direto abra o arquivo
-                lessonTitleElement.textContent = lesson.lessonTitle;
-                lessonContentElement.innerHTML = `
-                    <p>Você está prestes a acessar: <strong>${lesson.lessonTitle}</strong>.</p>
-                    <p>Este é um arquivo DOCX hospedado no GitHub. O seu navegador irá <strong>baixar o arquivo</strong> ou <strong>abrir em uma nova aba</strong>.</p>
-                    <a href="${fileUrl}" target="_blank" class="download-button" style="display:inline-block; margin-top:15px; padding:10px 20px; background:#1a56db; color:white; border-radius:5px;">Acessar o Arquivo</a>
-                `;
+                e.preventDefault();
+                displayDocxContent(fileUrl, lesson.lessonTitle);
+                // Fecha outras listas (opcional, para manter a sidebar limpa)
+                document.querySelectorAll('.lesson-list').forEach(ul => ul.style.display = 'none');
+                lessonList.style.display = 'block'; 
             });
 
             listItem.appendChild(lessonLink);
             lessonList.appendChild(listItem);
         });
 
-        // 4. Adiciona evento de clique para expandir/colapsar
+        // Evento de clique para expandir/colapsar a lista de aulas
         moduleHeader.addEventListener('click', (e) => {
             e.preventDefault();
             lessonList.style.display = lessonList.style.display === 'block' ? 'none' : 'block';
@@ -219,5 +227,4 @@ function renderNavigation() {
     });
 }
 
-// Inicializa a renderização
 document.addEventListener('DOMContentLoaded', renderNavigation);
